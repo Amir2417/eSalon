@@ -45,6 +45,7 @@ class LanguageController extends Controller
         $validator = Validator::make($request->all(),[
             'name'      => 'required|string|max:80|unique:languages,name',
             'code'      => 'required|string|max:20|unique:languages,code',
+            'dir'       => 'required|string|max:20|in:ltr,rtl',
         ]);
 
         if($validator->fails()) {
@@ -83,6 +84,7 @@ class LanguageController extends Controller
             'target'        => 'required|numeric|exists:languages,id',
             'edit_name'     => ["required","string","max:80",Rule::unique("languages","name")->ignore($request->target)],
             'edit_code'     => ["required","string","max:80",Rule::unique("languages","code")->ignore($request->target)],
+            'edit_dir'      => ["required","string","max:20","in:ltr,rtl"],
         ]);
 
         if($validator->fails()) {
@@ -94,7 +96,7 @@ class LanguageController extends Controller
         $validated = Arr::except($validated,['target']);
 
         $language = Language::find($request->target);
-        
+
         try{
             $language->update($validated);
         }catch(Exception $e) {
@@ -224,9 +226,17 @@ class LanguageController extends Controller
             return back()->with(['error' => [$e->getMessage()]]);
         }
 
+
+
         $filter_with_database_lang = array_intersect_key($sheets,[$validated['language'] => "value"]);
 
+        $get_predefine_keys = LanguageImport::getKeys();
+
+
         foreach($filter_with_database_lang as $code => $item) {
+
+            $item = array_intersect_key($item,array_flip($get_predefine_keys));
+
             $json_format = json_encode($item);
 
             $file = lang_path($code.".json");

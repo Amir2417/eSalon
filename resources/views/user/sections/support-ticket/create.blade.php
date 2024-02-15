@@ -27,7 +27,7 @@
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 form-group">
                                 @include('admin.components.form.input',[
-                                    'label'         => "Name<span>*</span>",
+                                    'label'         => __("Name")."<span>*</span>",
                                     'name'          => "name",
                                     'attribute'     => "readonly",
                                     'placeholder'   => "Enter Name...",
@@ -36,31 +36,31 @@
                             </div>
                             <div class="col-xl-6 col-lg-6 form-group">
                                 @include('admin.components.form.input',[
-                                    'label'         => "Email<span>*</span>",
+                                    'label'         => __("Email")."<span>*</span>",
                                     'type'          => "email",
                                     'name'          => "email",
                                     'attribute'     => "readonly",
-                                    'placeholder'   => "Enter Email...",
+                                    'placeholder'   =>  __("Enter Email")."...",
                                     'value'         => old('email',auth()->user()->email)
                                 ])
                             </div>
                             <div class="col-xl-12 col-lg-12 form-group">
                                 @include('admin.components.form.input',[
-                                    'label'         => "Subject<span>*</span>",
+                                    'label'         => __("Subject")."<span>*</span>",
                                     'name'          => "subject",
-                                    'placeholder'   => "Enter Subject...",
+                                    'placeholder'   => __("Enter Subject")."...",
                                 ])
                             </div>
                             <div class="col-xl-12 col-lg-12 form-group">
                                 @include('admin.components.form.textarea',[
-                                    'label'         => "Message <span class='text--base'>(Optional)</span>",
+                                    'label'         => __('Message').'<span class="text--base">'.'('.__("Optional").')'.'</span>',
                                     'name'          => "desc",
-                                    'placeholder'   => "Write Here...",
+                                    'placeholder'   => __("Write Here")."...",
                                 ])
                             </div>
                             <div class="col-xl-12 col-lg-12 form-group">
                                 @include('admin.components.form.input-file',[
-                                    'label'         => "Attachments<span>*</span>",
+                                    'label'         => __("Attachments")."*",
                                     'name'          => "attachment[]",
                                     'class'         => "file-holder",
                                     'attribute'     => "multiple"

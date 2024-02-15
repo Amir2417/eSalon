@@ -4,6 +4,7 @@ use App\Models\Admin\Admin;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use App\Constants\GlobalConst;
+use App\Models\Admin\Language;
 use App\Constants\LanguageConst;
 use App\Models\UserNotification;
 use App\Constants\AdminRoleConst;
@@ -23,8 +24,8 @@ use App\Constants\PaymentGatewayConst;
 use Buglinjo\LaravelWebp\Facades\Webp;
 use App\Models\Admin\AdminNotification;
 use App\Providers\Admin\CurrencyProvider;
-use App\Providers\Admin\BasicSettingsProvider;
 
+use App\Providers\Admin\BasicSettingsProvider;
 use Illuminate\Validation\ValidationException;
 use App\Notifications\User\Auth\SendAuthorizationCode;
 
@@ -1501,4 +1502,31 @@ if (!function_exists('formatNumberInKNotation')) {
         # Assemble and return the string.
         return $value . $unit;
     }
+}
+function get_api_languages(){
+    $lang = Language::get()->map(function($data,$index){
+        if(file_exists(base_path('lang/') . $data->code . '.json') == false) return false;
+        $json = json_decode(file_get_contents(base_path('lang/') . $data->code . '.json'),true);
+        $lan_key_values = [];
+        if($json != null) {
+            foreach($json as $lan_key=>$item) {
+                $lan_key_original = $lan_key;
+                if(Str::startsWith($lan_key_original, "appL")) $lan_key_values[$lan_key] = $item;
+            }
+        }
+        return [
+            'name'                  => $data->name,
+            'code'                  => $data->code,
+            'status'                => $data->status,
+            'dir'                   => $data->dir ?? "ltr",
+            'translate_key_values'  =>$lan_key_values,
+        ];
+    })->reject(function($value) {
+        return $value == false;
+    });
+    return $lang;
+} 
+
+function get_default_language_dir() {
+    return session()->get('local_dir') ?? "ltr";
 }

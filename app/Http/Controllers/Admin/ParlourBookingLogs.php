@@ -110,7 +110,7 @@ class ParlourBookingLogs extends Controller
      * @return view
      */
     public function hold(){
-        $page_title    = "Hold Logs";
+        $page_title    = "On Hold Logs";
         $data          = ParlourBooking::with(['parlour','schedule','payment_gateway'])->where('status',global_const()::PARLOUR_BOOKING_STATUS_HOLD)->get();
 
         return view('admin.sections.booking-logs.hold',compact(

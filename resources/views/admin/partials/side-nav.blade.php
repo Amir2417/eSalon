@@ -38,14 +38,14 @@
                             'icon'      => "menu-icon las la-coins",
                         ],
                         [
-                            'title'     => "Fees & Charges",
+                            'title'     => __("Fees & Charges"),
                             'route'     => "admin.trx.settings.index",
                             'icon'      => "menu-icon las la-wallet",
                         ]
                     ]
                 ])
                 @include('admin.components.side-nav.link-group',[
-                    'group_title'       => __("ParLour"),
+                    'group_title'       => __("Parlour"),
                     'group_links'       => [
                         [
                             'title'     => __("Setup Area"),
@@ -128,10 +128,10 @@
                                         'title'     => __("Email Unverified"),
                                         'route'     => "admin.users.email.unverified",
                                     ],
-                                    [
-                                        'title'     => __("KYC Unverified"),
-                                        'route'     => "admin.users.kyc.unverified", 
-                                    ],
+                                    // [
+                                    //     'title'     => __("KYC Unverified"),
+                                    //     'route'     => "admin.users.kyc.unverified", 
+                                    // ],
                                     [
                                         'title'     => __("All Users"),
                                         'route'     => "admin.users.index",
@@ -208,10 +208,6 @@
                                         'title'     => __("Onboard Screen"),
                                         'route'     => "admin.app.settings.onboard.screens",
                                     ],
-                                    [
-                                        'title'     => __("App URLs"),
-                                        'route'     => "admin.app.settings.urls", 
-                                    ],
                                 ],
                             ],
                         ],
@@ -242,12 +238,6 @@
                         ],
 
                     ]
-                ])
-
-                @include('admin.components.side-nav.link',[
-                    'route'     => 'admin.setup.kyc.index',
-                    'title'     => __("Setup KYC"),
-                    'icon'      => "menu-icon las la-clipboard-list",
                 ])
 
                 @if (admin_permission_by_name("admin.setup.sections.section"))
@@ -343,24 +333,24 @@
 
                 @include('admin.components.side-nav.link',[
                     'route'     => 'admin.setup.pages.index',
-                    'title'     => "Setup Pages",
+                    'title'     => __("Setup Pages"),
                     'icon'      => "menu-icon las la-file-alt",
                 ])
 
                 @include('admin.components.side-nav.link',[
                     'route'     => "admin.contact.index",
-                    'title'     => "Contact Messages",
+                    'title'     => __("Contact Messages"),
                     'icon'      => "menu-icon las la-sms",
                 ])
                 @include('admin.components.side-nav.link',[
                     'route'     => 'admin.extensions.index',
-                    'title'     => "Extensions",
+                    'title'     => __("Extensions"),
                     'icon'      => "menu-icon las la-puzzle-piece",
                 ])
 
                 @include('admin.components.side-nav.link',[
                     'route'     => 'admin.usefull.links.index',
-                    'title'     => "Useful Links",
+                    'title'     => __("Useful Links"),
                     'icon'      => "menu-icon las la-link",
                 ])
 
@@ -390,19 +380,19 @@
 
                 {{-- Notifications --}}
                 @include('admin.components.side-nav.link-group',[
-                    'group_title'       => "Notification",
+                    'group_title'       => __("Notification"),
                     'group_links'       => [
                         'dropdown'      => [
                             [
-                                'title'     => "Push Notification",
+                                'title'     => __("Push Notification"),
                                 'icon'      => "menu-icon las la-bell",
                                 'links'     => [
                                     [
-                                        'title'     => "Setup Notification",
+                                        'title'     => __("Setup Notification"),
                                         'route'     => "admin.push.notification.config",
                                     ],
                                     [
-                                        'title'     => "Send Notification",
+                                        'title'     => __("Send Notification"),
                                         'route'     => "admin.push.notification.index",
                                     ]
                                 ],
@@ -421,19 +411,19 @@
                 @endphp 
 
                 @if (admin_permission_by_name_array($bonus_routes))   
-                    <li class="sidebar-menu-header">Bonus</li>
+                    <li class="sidebar-menu-header">{{ __("Bonus") }}</li>
                 @endif
 
                 
                 @include('admin.components.side-nav.link',[
                     'route'     => 'admin.server.info.index',
-                    'title'     => "Server Info",
+                    'title'     => __("Server Info"),
                     'icon'      => "menu-icon las la-sitemap",
                 ])
 
                 @include('admin.components.side-nav.link',[
                     'route'     => 'admin.cache.clear',
-                    'title'     => "Clear Cache",
+                    'title'     => __("Clear Cache"),
                     'icon'      => "menu-icon las la-broom",
                 ])
             </ul>

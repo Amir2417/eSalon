@@ -1,5 +1,6 @@
 @php
     $menues = DB::table('setup_pages')->where('status', 1)->get();
+    $language = App\Models\Admin\Language::where('status',1)->first()
 @endphp
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Start Header
@@ -62,9 +63,11 @@
 <script>
     $("select[name=lang_switcher]").change(function(){
         var selected_value = $(this).val();
+        console.log(selected_value);
         var submitForm = `<form action="{{ setRoute('languages.switch') }}" id="local_submit" method="POST"> @csrf <input type="hidden" name="target" value="${$(this).val()}" ></form>`;
         $("body").append(submitForm);
         $("#local_submit").submit();
     });
+    
 </script>
 @endpush

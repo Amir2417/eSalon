@@ -23,14 +23,14 @@
                                 <div class="tab-pane @if (get_default_language_code() == $item->code) fade show active @endif" id="modal-{{ $item->name }}" role="tabpanel" aria-labelledby="modal-{{$item->name}}-tab">
                                     <div class="form-group">
                                         @include('admin.components.form.input',[
-                                            'label'     => "Heading*",
+                                            'label'     =>__("Heading")."*",
                                             'name'      => $lang_code . "_heading",
                                             'value'     => old($lang_code . "_heading")
                                         ])
                                     </div>
                                     <div class="form-group">
                                         @include('admin.components.form.input',[
-                                            'label'     => "Sub Heading*",
+                                            'label'     => __("Sub Heading")."*",
                                             'name'      => $lang_code . "_sub_heading",
                                             'value'     => old($lang_code . "_sub_heading")
                                         ])
@@ -41,14 +41,14 @@
                     </div>
                     <div class="form-group">
                         @include('admin.components.form.input',[
-                            'label'     => "Button Name*",
+                            'label'     => __("Button Name")."*",
                             'name'      => "button_name",
                             'value'     => old("button_name")
                         ])
                     </div> 
                     <div class="col-xl-12 col-lg-12 form-group">
                         @include('admin.components.form.input-file',[
-                            'label'             => "Image:",
+                            'label'             => __("Image"),
                             'name'              => "image",
                             'class'             => "file-holder",
                             'old_files_path'    => files_asset_path("site-section"),

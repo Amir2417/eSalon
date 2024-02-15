@@ -44,7 +44,7 @@
                     <div class="dashbord-item">
                         <div class="dashboard-content">
                             <div class="left">
-                                <h6 class="title">{{ ("Total Parlours") }}</h6>
+                                <h6 class="title">{{ __("Total Parlours") }}</h6>
                                 <div class="user-info">
                                     <h2 class="user-count">{{ formatNumberInKNotation($data['total_parlour_count']) }}</h2>
                                 </div>
@@ -63,7 +63,7 @@
                     <div class="dashbord-item">
                         <div class="dashboard-content">
                             <div class="left">
-                                <h6 class="title">{{ ("Total Bookings") }}</h6>
+                                <h6 class="title">{{ __("Total Bookings") }}</h6>
                                 <div class="user-info">
                                     <h2 class="user-count">{{ formatNumberInKNotation($data['total_booking_count']) }}</h2>
                                 </div>
@@ -82,7 +82,7 @@
                     <div class="dashbord-item">
                         <div class="dashboard-content">
                             <div class="left">
-                                <h6 class="title">{{ ("Total Blog Category") }}</h6>
+                                <h6 class="title">{{ __("Total Blog Category") }}</h6>
                                 <div class="user-info">
                                     <h2 class="user-count">{{ formatNumberInKNotation($data['total_category_count']) }}</h2>
                                 </div>
@@ -101,7 +101,7 @@
                     <div class="dashbord-item">
                         <div class="dashboard-content">
                             <div class="left">
-                                <h6 class="title">{{ ("Total Blogs") }}</h6>
+                                <h6 class="title">{{ __("Total Blogs") }}</h6>
                                 <div class="user-info">
                                     <h2 class="user-count">{{ formatNumberInKNotation($data['total_blog_count']) }}</h2>
                                 </div>
@@ -139,7 +139,7 @@
                     <div class="dashbord-item">
                         <div class="dashboard-content">
                             <div class="left">
-                                <h6 class="title">{{ ("Total Booking Money") }}</h6>
+                                <h6 class="title">{{ __("Total Booking Money") }}</h6>
                                 <div class="user-info">
                                     <h2 class="user-count">{{ get_default_currency_symbol() }}{{ get_amount($data['total_money']) }}</h2>
                                 </div>
@@ -155,7 +155,7 @@
                     <div class="dashbord-item">
                         <div class="dashboard-content">
                             <div class="left">
-                                <h6 class="title">{{ ("Total Fees & Charges") }}</h6>
+                                <h6 class="title">{{ __("Total Fees & Charges") }}</h6>
                                 <div class="user-info">
                                     <h2 class="user-count">{{ get_default_currency_symbol() }}{{ get_amount($data['total_charges']) }}</h2>
                                 </div>
@@ -267,11 +267,11 @@
         var month_day = chart1.data('month_day');
         var options = {
         series: [{
-        name: 'Pending',
+        name: "{{ __('Pending') }}",
         color: "#5A5278",
         data: chart_one_data.pending_data
         }, {
-        name: 'Completed',
+        name: "{{ __('Completed') }}",
         color: "#6F6593",
         data: chart_one_data.complete_data
         },],

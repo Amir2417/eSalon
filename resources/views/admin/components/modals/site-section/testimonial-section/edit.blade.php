@@ -24,7 +24,7 @@
                                 <div class="tab-pane @if (get_default_language_code() == $item->code) fade show active @endif" id="modal-{{ $item->name }}" role="tabpanel" aria-labelledby="modal-{{$item->name}}-tab">
                                     <div class="form-group">
                                         @include('admin.components.form.textarea',[
-                                            'label'     => "Comment*",
+                                            'label'     =>  __("Comment")."*",
                                             'name'      => $lang_code . "_comment_edit",
                                             'value'     => old($lang_code . "_comment_edit",$data->value->language->$lang_code->comment ?? "")
                                         ])
@@ -35,21 +35,21 @@
                     </div>
                     <div class="form-group">
                         @include('admin.components.form.input',[
-                            'label'     => "Name*",
+                            'label'     => __("Name")."*",
                             'name'      => "name_edit",
                             'value'     => old("name_edit",$data->value->language->$lang_code->name ?? "")
                         ])
                     </div>
                     <div class="form-group">
                         @include('admin.components.form.input',[
-                            'label'     => "Designation*",
+                            'label'     => __("Designation")."*",
                             'name'      => "designation_edit",
                             'value'     => old("designation_edit",$data->value->language->$lang_code->designation ?? "")
                         ])
                     </div>
                     <div class="form-group">
                         @include('admin.components.form.input',[
-                            'label'     => "Ratings(Max 5)*",
+                            'label'     => __("Ratings(Max 5)")."*",
                             'type'      => "number",
                             'name'      => "rating_edit",
                             'value'     => old("rating_edit",$data->value->items->rating ?? "")
@@ -57,7 +57,7 @@
                     </div>
                     <div class="form-group">
                         @include('admin.components.form.input-file',[
-                            'label'             => "Image",
+                            'label'             => __("Image"),
                             'name'              => "image",
                             'class'             => "file-holder",
                             'old_files_path'    => files_asset_path("site-section"),

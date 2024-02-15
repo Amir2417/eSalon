@@ -24,7 +24,7 @@
                                 <div class="tab-pane @if (get_default_language_code() == $item->code) fade show active @endif" id="modal-{{ $item->name }}" role="tabpanel" aria-labelledby="modal-{{$item->name}}-tab">
                                     <div class="form-group">
                                         @include('admin.components.form.input',[
-                                            'label'     => "Title*",
+                                            'label'     => __("Title").'*',
                                             'name'      => $lang_code . "_item_title_edit",
                                             'value'     => old($lang_code . "_item_title_edit",$data->value->language->$lang_code->item_title ?? "")
                                         ])
@@ -35,7 +35,7 @@
                     </div>
                     <div class="form-group">
                         @include('admin.components.form.input',[
-                            'label'     => "Icon*",
+                            'label'     => __("Icon")."*",
                             'name'      => "icon_edit",
                             'class'     => "form--control icp icp-auto iconpicker-element iconpicker-input",
                             'value'     => old("icon_edit",$data->value->items->icon ?? "")

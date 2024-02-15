@@ -21,7 +21,7 @@
                             @include('admin.components.button.form-btn',[
                                 'class'         => "w-100 btn-loading",
                                 'permission'    => "admin.area.store",
-                                'text'          => "Add",
+                                'text'          => __("Add"),
                             ])
                         </div>
                     </div>

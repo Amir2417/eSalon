@@ -12,18 +12,27 @@
                     <div class="row mb-10-none mt-2">
                         <div class="col-xl-6 col-lg-6 form-group">
                             @include('admin.components.form.input',[
-                                'label'         => 'Language Name*',
+                                'label'         => __('Language Name')."*",
                                 'name'          => 'edit_name',
                                 'value'         => old('edit_name')
                             ])
                         </div>
                         <div class="col-xl-6 col-lg-6 form-group">
                             @include('admin.components.form.input',[
-                                'label'         => 'Language Code*',
+                                'label'         => __('Language Code')."*",
                                 'name'          => 'edit_code',
                                 'value'         => old('edit_code')
                             ])
                         </div>
+                        <div class="col-xl-12 col-lg-12 form-group">
+                            @include('admin.components.form.switcher',[
+                                'label'         => __('Direction').'*',
+                                'name'          => 'edit_dir',
+                                'value'         => old('edit_dir'),
+                                'options'       => [__('LTR') => 'ltr',__('RTL') => 'rtl'],
+                            ])
+                        </div>
+                        
                         <div class="col-xl-12 col-lg-12 form-group d-flex align-items-center justify-content-between mt-4">
                             <button type="button" class="btn btn--danger modal-close">{{ __("Cancel") }}</button>
                             <button type="submit" class="btn btn--base">{{ __("Update") }}</button>
@@ -44,7 +53,9 @@
                 editModal.find("form").first().find("input[name=target]").val(oldData.id);
                 editModal.find("input[name=edit_name]").val(oldData.name);
                 editModal.find("input[name=edit_code]").val(oldData.code);
+                editModal.find("input[name=edit_dir]").val(oldData.dir);
 
+                refreshSwitchers("#language-edit");
                 openModalBySelector("#language-edit");
             });
         </script>

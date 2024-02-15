@@ -92,6 +92,34 @@ class BlogCategoryController extends Controller
         return Response::success($success, null, 200);
     }
     /**
+     * Method for update the blog Category
+     */
+    public function update(Request $request){
+        $request->validate([
+            'target'         =>'required|string',
+        ]);
+        $basic_field_name = [
+            'name'  => "required",
+        ];
+
+        $category   = BlogCategory::where('id',$request->target)->first();
+        if(!$category) return back()->with(['error' => ['Blog Category Not Found!']]);
+        $data['language']   = $this->contentValidate($request,$basic_field_name);
+        
+        
+        try{
+            $update_value = [
+                'name'          => $data
+            ];
+            $category->update($update_value);
+        }catch(Exception $e){
+         
+            return back()->with(['error' => ['Something went wrong! Please try again']]);
+        }
+        return back()->with(['success' => ['Blog Category Updated Successfully.']]);
+        
+    }
+    /**
      * Method for delete the category
      * @param string
      */

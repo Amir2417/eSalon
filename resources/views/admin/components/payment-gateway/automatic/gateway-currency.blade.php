@@ -9,7 +9,7 @@
                     <div class="row align-items-center">
                         <div class="col-xl-5 col-lg-5 form-group">
                             @include('admin.components.form.input-file',[
-                                'label'             => "Gateway Image",
+                                'label'             => __("Gateway Image"),
                                 'name'              => "gateway_currency[".$item->currency_code."][image]",
                                 'class'             => "file-holder",
                                 'old_files_path'    => files_asset_path('payment-gateways'),
@@ -36,7 +36,7 @@
                                         <div class="col-xxl-12 col-xl-6 col-lg-6 form-group">
                                             <div class="form-group">
                                                 @include('admin.components.form.input',[
-                                                    'label'     => "Symbol",
+                                                    'label'     => __("Symbol"),
                                                     'name'      => "gateway_currency[".$item->currency_code."][currency_symbol]",
                                                     'value'     => old("gateway_currency.".$item->currency_code.".currency_symbol",$item->currency_symbol),
                                                 ])

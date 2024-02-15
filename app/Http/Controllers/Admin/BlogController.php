@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Validator;
 class BlogController extends Controller
 {
     public function create(){
-        $page_title = "New Blog Create ";
+        $page_title = "New Blog Create";
         $category   = BlogCategory::where('status',true)->get();
         $languages  = Language::get();
 

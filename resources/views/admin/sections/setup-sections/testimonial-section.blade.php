@@ -61,7 +61,7 @@
                                                                                                             
                                         <div class="form-group">
                                             @include('admin.components.form.input',[
-                                                'label'     => "Section Title*",
+                                                'label'     => __("Section Title")."*",
                                                 'name'      => $lang_code . "_title",
                                                 'value'     => old($lang_code . "_title",$data->value->language->$lang_code->title ?? "")
                                             ])
@@ -69,14 +69,14 @@
 
                                         <div class="form-group">
                                             @include('admin.components.form.input',[
-                                                'label'     => "Heading*",
+                                                'label'     => __("Heading")."*",
                                                 'name'      => $lang_code . "_heading",
                                                 'value'     => old($lang_code . "_heading",$data->value->language->$lang_code->heading ?? "")
                                             ])
                                         </div>
                                         <div class="form-group">
                                             @include('admin.components.form.textarea',[
-                                                'label'     => "Sub Heading*",
+                                                'label'     => __("Sub Heading")."*",
                                                 'name'      => $lang_code . "_sub_heading",
                                                 'value'     => old($lang_code . "_sub_heading",$data->value->language->$lang_code->sub_heading ?? "")
                                             ])
@@ -89,7 +89,7 @@
                     <div class="col-xl-12 col-lg-12 form-group">
                         @include('admin.components.button.form-btn',[
                             'class'         => "w-100 btn-loading",
-                            'text'          => "Update",
+                            'text'          => __("Update"),
                             'permission'    => "admin.setup.sections.section.update"
                         ])
                     </div>

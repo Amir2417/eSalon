@@ -21,7 +21,7 @@
     @foreach ($transaction_charges as $item)
         @include('admin.components.trx-settings-charge-block',[
             'route'         => setRoute('admin.trx.settings.charges.update'),
-            'title'         => $item->title,
+            'title'         => __($item->title),
             'data'          => $item,
         ])
     @endforeach

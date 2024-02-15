@@ -33,7 +33,7 @@
                 <h5 class="title">{{ __($page_title) }}</h5>
                 <div class="table-btn-area">
                     @include('admin.components.link.add-default',[
-                        'text'          => "Add Area",
+                        'text'          => __("Add Area"),
                         'href'          => "#add-area",
                         'class'         => "modal-btn",
                         'permission'    => "admin.area.store",
@@ -57,7 +57,7 @@
                                     @include('admin.components.form.switcher',[
                                         'name'        => 'status',
                                         'value'       => $item->status,
-                                        'options'     => ['Enable' => 1, 'Disable' => 0],
+                                        'options'     => [__('Enable') => 1, __('Disable') => 0],
                                         'onload'      => true,
                                         'data_target' => $item->id,
                                     ])
@@ -94,7 +94,7 @@
             var oldData     = JSON.parse($(this).parents("tr").attr("data-item"));
             var actionRoute = "{{ setRoute('admin.area.delete') }}";
             var target      = oldData.id;
-            var message     = `Are you sure to <strong>delete</strong> this Area?`;
+            var message     = `{{ __("Are you sure to") }} <strong>{{ __("delete") }}</strong> {{ __("this Area?") }}`;
 
             openDeleteModal(actionRoute,target,message);
 

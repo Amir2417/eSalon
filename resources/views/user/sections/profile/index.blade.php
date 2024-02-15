@@ -183,7 +183,7 @@
             var btnText     = "Delete Account";
             var projectName = "{{ @$basic_settings->site_name }}";
             var name        = $(this).data('name');
-            var message     = `Are you sure to delete <strong>your account</strong>?<br>If you do not think you will use “<strong>${projectName}</strong>”  again and like your account deleted, we can take card of this for you. Keep in mind you will not be able to reactivate your account or retrieve any of the content or information you have added. If you would still like your account deleted, click “Delete Account”.?`;
+            var message     = `{{ __("Are you sure to delete") }} <strong>{{ __("your account") }}</strong>?<br>{{ __("If you do not think you will use") }} “<strong>${projectName}</strong>”  {{ __("again and like your account deleted, we can take card of this for you. Keep in mind you will not be able to reactivate your account or retrieve any of the content or information you have added. If you would still like your account deleted, click “Delete Account”.?") }}`;
             openAlertModal(actionRoute,target,message,btnText,"DELETE");
         });
     </script>

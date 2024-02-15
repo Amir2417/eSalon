@@ -3381,7 +3381,6 @@ input[type=number] {
 .banner-section .banner-content .title {
   font-weight: 600;
   margin-bottom: 20px;
-  text-transform: capitalize;
   position: relative;
   color: #fff;
 }

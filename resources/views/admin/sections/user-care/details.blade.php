@@ -75,11 +75,11 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 form-group">
                         <ul class="user-profile-list">
-                            <li class="bg--base one">{{ __("Full Name:") }} <span>{{ $user->fullname }}</span></li>
-                            <li class="bg--info two">{{ __("Username:") }} <span>{{ "@".$user->username }}</span></li>
-                            <li class="bg--success three">{{ __("Email:") }} <span>{{ $user->email }}</span></li>
-                            <li class="bg--warning four">{{ __("Status:") }} <span>{{ $user->stringStatus->value }}</span></li>
-                            <li class="bg--danger five">{{ __("Last Login:") }} <span>{{ $user->lastLogin }}</span></li>
+                            <li class="bg--base one">{{ __("Full Name") }}: <span>{{ $user->fullname }}</span></li>
+                            <li class="bg--info two">{{ __("username") }}: <span>{{ "@".$user->username }}</span></li>
+                            <li class="bg--success three">{{ __("Email") }}: <span>{{ $user->email }}</span></li>
+                            <li class="bg--warning four">{{ __("Status") }}: <span>{{ $user->stringStatus->value }}</span></li>
+                            <li class="bg--danger five">{{ __("Last Login") }}: <span>{{ $user->lastLogin }}</span></li>
                         </ul>
                     </div>
                 </div>
@@ -97,20 +97,20 @@
                 <div class="row mb-10-none">
                     <div class="col-xl-6 col-lg-6 form-group">
                         @include('admin.components.form.input',[
-                            'label'         => "First Name*",
+                            'label'         => __("First Name")."*",
                             'name'          => "firstname",
                             'value'         => old("firstname",$user->firstname),
                             'attribute'     => "required",
-                            'placeholder'   => "Write Here...",
+                            'placeholder'   => __("Write Here")."...",
                         ])
                     </div>
                     <div class="col-xl-6 col-lg-6 form-group">
                         @include('admin.components.form.input',[
-                            'label'         => "Last Name*",
+                            'label'         => __("Last Name")."*",
                             'name'          => "lastname",
                             'value'         => old("lastname",$user->lastname),
                             'attribute'     => "required",
-                            'placeholder'   => "Write Here...",
+                            'placeholder'   => __("Write Here")."...",
                         ])
                     </div>
                     <div class="col-xl-6 col-lg-6 form-group">
@@ -154,35 +154,35 @@
                     </div>
                     <div class="col-xl-6 col-lg-6 form-group">
                         @include('admin.components.form.input',[
-                            'label'         => "Zip/Postal",
+                            'label'         => __("Zip Code"),
                             'name'          => "zip_code",
-                            'placeholder'   => "Write Here...",
+                            'placeholder'   => __("Write Here")."...",
                             'value'         => old('zip_code',$user->address->zip ?? "")
                         ])
                     </div>
                     <div class="col-xl-6 col-lg-6 form-group">
                         @include('admin.components.form.input',[
-                            'label'         => "Address",
+                            'label'         => __("Address"),
                             'name'          => 'address',
                             'value'         => old("address",$user->address->address ?? ""),
-                            'placeholder'   => "Write Here...",
+                            'placeholder'   => __("Write Here")."...",
                         ])
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 form-group">
                         @include('admin.components.form.switcher', [
-                            'label'         => 'User Status',
+                            'label'         => __('User Status'),
                             'value'         => old('status',$user->status),
                             'name'          => "status",
-                            'options'       => ['Active' => 1, 'Banned' => 0],
+                            'options'       => [__('Active') => 1, __('Banned') => 0],
                             'permission'    => "admin.users.details.update",
                         ])
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 form-group">
                         @include('admin.components.form.switcher', [
-                            'label'         => 'Email Verification',
+                            'label'         => __('Email Verification'),
                             'value'         => old('email_verified',$user->email_verified),
                             'name'          => "email_verified",
-                            'options'       => ['Verified' => 1, 'Unverified' => 0],
+                            'options'       => [__('Verified') => 1, __('Unverified') => 0],
                             'permission'    => "admin.users.details.update",
                         ])
                     </div>
@@ -190,7 +190,7 @@
                     
                     <div class="col-xl-12 col-lg-12 form-group mt-4">
                         @include('admin.components.button.form-btn',[
-                            'text'          => "Update",
+                            'text'          => __("Update"),
                             'permission'    => "admin.users.details.update",
                             'class'         => "w-100 btn-loading",
                         ])

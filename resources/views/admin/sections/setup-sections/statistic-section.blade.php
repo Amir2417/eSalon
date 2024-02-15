@@ -63,7 +63,7 @@
                                     @include('admin.components.form.switcher',[
                                         'name'        => 'statistic_status',
                                         'value'       => $item->status,
-                                        'options'     => ['Enable' => 1, 'Disable' => 0],
+                                        'options'     => [__('Enable') => 1, __('Disable') => 0],
                                         'onload'      => true,
                                         'data_target' => $item->id,
                                         'permission'  => "admin.setup.sections.statistic.status.update",
