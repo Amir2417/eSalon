@@ -200,7 +200,7 @@ var swiper = new Swiper(".brand-slider", {
 });
 
 var swiper = new Swiper(".testimonial-slider", {
-  slidesPerView: 2,
+  slidesPerView: 3,
   spaceBetween: 30,
   loop: true,
   pagination: {
@@ -214,10 +214,10 @@ var swiper = new Swiper(".testimonial-slider", {
   speed: 1000,
   breakpoints: {
     1199: {
-    slidesPerView: 1,
+    slidesPerView: 2,
     },
     991: {
-    slidesPerView: 1,
+    slidesPerView: 2,
     },
     767: {
     slidesPerView: 1,

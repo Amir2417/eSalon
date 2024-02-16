@@ -32,7 +32,7 @@
                         </div>
                         <div class="about-details">
                             <div class="salon-title">
-                                <h3 class="title"><i class="las la-user-alt"></i> {{ ("Parlour Details") }}</h3>
+                                <h3 class="title"><i class="las la-user-alt"></i> {{ __("Parlour Details") }}</h3>
                             </div>
                             <div class="list-wrapper">
                                 <div class="preview-area">

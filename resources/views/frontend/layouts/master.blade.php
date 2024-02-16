@@ -17,9 +17,9 @@
     @include('partials.header-asset')
     @stack('css')
 </head>
-<body>
+<body class="{{ get_default_language_dir() }}">
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!--~~~~~~~~~~~~~~~~~~~~~~~~
     Start body overlay
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <div id="body-overlay" class="body-overlay"></div>
