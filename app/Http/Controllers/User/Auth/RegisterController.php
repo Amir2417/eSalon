@@ -91,6 +91,10 @@ class RegisterController extends Controller
         if($basic_settings->secure_password) {
             $passowrd_rule = ["required",Password::min(8)->letters()->mixedCase()->numbers()->symbols()->uncompromised()];
         }
+        $agree_rule = "nullable";
+        if($basic_settings->agree_policy) {
+            $agree_rule = 'required|in:on';
+        }
 
         return Validator::make($data,[
             'firstname'     => 'required|string|max:60',
@@ -98,7 +102,7 @@ class RegisterController extends Controller
             'email'         => 'required|string|email|max:150|unique:users,email',
             'country'       => 'required|string',
             'password'      => $passowrd_rule,
-            'agree'         => 'required|in:on',
+            'agree'         => $agree_rule,
         ]);
     }
 
