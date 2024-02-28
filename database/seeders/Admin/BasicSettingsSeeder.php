@@ -38,6 +38,7 @@ class BasicSettingsSeeder extends Seeder
                 "username" => "system@appdevs.net",
                 "password" => "QP2fsLk?80Ac",
                 "from" => "system@appdevs.net", 
+                "mail_address"  => "system@appdevs.net", 
                 "app_name" => "eSalon",
             ],
             'push_notification_config'  => [

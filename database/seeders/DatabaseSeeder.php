@@ -18,6 +18,7 @@ use Database\Seeders\Admin\AppOnboardScreenSeeder;
 use Database\Seeders\Admin\SiteSectionsSeeder;
 use Database\Seeders\Admin\BasicSettingsSeeder;
 use Database\Seeders\Admin\BlogSeeder;
+use Database\Seeders\Admin\FreshBasicSettingsSeeder;
 use Database\Seeders\Admin\ParlourListSeeder;
 use Database\Seeders\Admin\PaymentGatewaySeeder;
 use Database\Seeders\Admin\SetupArea;
@@ -35,31 +36,6 @@ class DatabaseSeeder extends Seeder
     {
 
         // //demo
-        $this->call([
-            AdminSeeder::class,
-            RoleSeeder::class,
-            TransactionSettingSeeder::class,
-            CurrencySeeder::class,
-            BasicSettingsSeeder::class,
-            SetupSeoSeeder::class,
-            AppSettingsSeeder::class,
-            AppOnboardScreenSeeder::class,
-            SiteSectionsSeeder::class,
-            LanguageSeeder::class,
-            SetupKycSeeder::class,
-            ExtensionSeeder::class,
-            AdminHasRoleSeeder::class,
-            UsefulLinkSeeder::class,
-            SetupPageSeeder::class,
-            PaymentGatewaySeeder::class,
-            BlogSeeder::class,
-            SetupArea::class,
-            ParlourListSeeder::class,
-            UserSeeder::class,
-            
-        ]);
-
-        //fresh
         // $this->call([
         //     AdminSeeder::class,
         //     RoleSeeder::class,
@@ -78,6 +54,31 @@ class DatabaseSeeder extends Seeder
         //     SetupPageSeeder::class,
         //     PaymentGatewaySeeder::class,
         //     BlogSeeder::class,
+        //     SetupArea::class,
+        //     ParlourListSeeder::class,
+        //     UserSeeder::class,
+            
         // ]);
+
+        //fresh
+        $this->call([
+            AdminSeeder::class,
+            RoleSeeder::class,
+            TransactionSettingSeeder::class,
+            CurrencySeeder::class,
+            FreshBasicSettingsSeeder::class,
+            SetupSeoSeeder::class,
+            AppSettingsSeeder::class,
+            AppOnboardScreenSeeder::class,
+            SiteSectionsSeeder::class,
+            LanguageSeeder::class,
+            SetupKycSeeder::class,
+            ExtensionSeeder::class,
+            AdminHasRoleSeeder::class,
+            UsefulLinkSeeder::class,
+            SetupPageSeeder::class,
+            PaymentGatewaySeeder::class,
+            BlogSeeder::class,
+        ]);
     }
 }
