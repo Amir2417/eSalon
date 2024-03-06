@@ -15,7 +15,7 @@
                             <p>{{ $footer->value->footer->language->$app_local->description ?? '' }}</p>
                         </div>
                         <div class="footer-social-icon">
-                            <span>{{ __("Follow us") }} :</span>
+                            <span>{{ __("Follow us") }}:</span>
                             @foreach ($footer->value->social_links ?? [] as $item)
                                 <a href="{{ $item->link ?? '' }}"><i class="{{ $item->icon ?? '' }}"></i></a>
                             @endforeach
@@ -54,7 +54,7 @@
             <div class="row">
                 <div class="col-12 text-center text-lg-left">
                     <div class="copyright-text">
-                        <p>{{ __("Copyright") }} &copy; {{ __("2024,") }} {{ __("All Right Reserved") }} <a href="{{ setRoute('index') }}"><span class="text--base">{{ $basic_settings->site_name }}</span></a>
+                        <p>{{ __("Copyright") }} &copy; {{ __("2024,") }} {{ __("All Rights Reserved") }} <a href="{{ setRoute('index') }}"><span class="text--base">{{ $basic_settings->site_name }}</span></a>
                         </p>
                     </div>
                 </div>

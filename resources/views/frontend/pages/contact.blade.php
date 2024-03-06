@@ -208,7 +208,7 @@
              <div class="col-lg-6">
                 <div class="contact-form-area">
                     <div class="contact-header">
-                        <h4 class="title">{{ $contact->value->language->$app_local->description ?? '' }}</h4>
+                        <h4>{{ $contact->value->language->$app_local->description ?? '' }}</h4>
                     </div>
                     <form class="contact-form" action="{{ setRoute('contact.request') }}" method="POST">
                         @csrf
