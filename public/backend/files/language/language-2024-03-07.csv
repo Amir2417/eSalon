@@ -57,7 +57,7 @@ Blog Section,Blog Section,Sección de blogs,قسم المدونة
 Contact Section,Contact Section,Sección de contacto,قسم الاتصال
 Login Section,Login Section,Sección de inicio de sesión,قسم تسجيل الدخول
 Register Section,Register Section,Sección de registro,قسم التسجيل
-Setup Pages,Setup Pages,Configuración de páginas,صفحات الإعداد
+Setup Pages,Setup Pages,Páginas de configuración,صفحات الإعداد
 Extensions,Extensions,Extensiones,الامتدادات
 Useful Links,Useful Links,Enlaces útiles,روابط مفيدة
 Subscribers,Subscribers,Suscriptores,مشتركين
@@ -112,7 +112,7 @@ Network Added Successfully,Network Added Successfully,Red agregada con éxito,أ
 The edit_coin field is required.,The edit_coin field is required.,Se requiere el campo edit_coin.,حقل edit_coin مطلوب.
 The edit_name field is required.,The edit_name field is required.,Se requiere el campo edit_name.,حقل EDIT_NAME مطلوب.
 The edit_arrival_time field is required.,The edit_arrival_time field is required.,Se requiere el campo edit_arrival_time.,حقل edit_arrival_time مطلوب.
-Network updated successfully!,Network updated successfully!,Network actualizada con éxito!,تم تحديث الشبكة بنجاح!
+Network updated successfully!,Network updated successfully!,¡Network actualizada con éxito!,تم تحديث الشبكة بنجاح!
 Network Deleted Successfully!,Network Deleted Successfully!,Network eliminada con éxito!,تم حذف الشبكة بنجاح!
 Network status updated successfully!,Network status updated successfully!,Estado de la red actualizado correctamente!,تم تحديث حالة الشبكة بنجاح!
 Symbol,Symbol,Símbolo,رمز
@@ -123,7 +123,7 @@ Code,Code,Código,شفرة
 The code field is required.,The code field is required.,Se requiere el campo de código.,حقل الكود مطلوب.
 The symbol field is required.,The symbol field is required.,Se requiere el campo de símbolos.,حقل الرمز مطلوب.
 The option field is required.,The option field is required.,Se requiere el campo de opción.,حقل الخيار مطلوب.
-The rate field is required.,The rate field is required.,Se requiere el campo de tasa.,حقل السعر مطلوب.
+The rate field is required.,The rate field is required.,Se requiere el campo de tarifa.,حقل السعر مطلوب.
 The network field is required.,The network field is required.,Se requiere el campo de red.,حقل الشبكة مطلوب.
 Default currency make failed! Please try again.,Default currency make failed! Please try again.,¡Falló la moneda predeterminada! Inténtalo de nuevo.,العملة الافتراضية تجعل فشل! حاول مرة اخرى.
 Currency Saved Successfully!,Currency Saved Successfully!,¡Moneda ahorrada con éxito!,العملة المحفوظة بنجاح!
@@ -132,12 +132,12 @@ Currency status updated successfully!,Currency status updated successfully!,¡Es
 Currency not found!,Currency not found!,¡Moneda no encontrada!,العملة لم يتم العثور عليها!
 The currency name field is required.,The currency name field is required.,Se requiere el campo Nombre de la moneda.,حقل اسم العملة مطلوب.
 The currency code field is required.,The currency code field is required.,Se requiere el campo de código de divisas.,حقل رمز العملة مطلوب.
-The currency symbol field is required.,The currency symbol field is required.,Se requiere el campo de símbolo de divisas.,مطلوب حقل رمز العملة.
+The currency symbol field is required.,The currency symbol field is required.,Se requiere el campo de símbolo de moneda.,مطلوب حقل رمز العملة.
 The currency rate field is required.,The currency rate field is required.,Se requiere el campo de tasa de divisas.,حقل معدل العملة مطلوب.
 The currrency option field is required.,The currrency option field is required.,Se requiere el campo de la opción Currrency.,مطلوب حقل خيار العملات.
 Image file upload faild!,Image file upload faild!,Archivo de imagen Carga Faild!,ملف الصورة تحميل فشل!
 Successfully updated the information.,Successfully updated the information.,Actualizó con éxito la información.,تم تحديث المعلومات بنجاح.
-Can\'t deletable default currency.,Can\'t deletable default currency.,Puede \ 't de la moneda predeterminada eliminable.,لا يمكن \ 't قابلة لحذف العملة الافتراضية.
+Can\'t deletable default currency.,Can\'t deletable default currency.,Puede \ 't de la moneda predeterminada eliminable.,لا يمكن \ 'الحذف العملة الافتراضية.
 Currency deleted successfully!,Currency deleted successfully!,¡Moneda eliminada con éxito!,تم حذف العملة بنجاح!
 Search,Search,Buscar,يبحث
 Flag,Flag,Bandera,علَم
@@ -147,7 +147,7 @@ currency?,currency?,¿divisa?,عملة؟
 Withdraw Crypto Charges,Withdraw Crypto Charges,Retirar cargos criptográficos,سحب رسوم التشفير
 Exchange Crypto Charges,Exchange Crypto Charges,Intercambiar cargos criptográficos,تبادل رسوم التشفير
 Charges,Charges,Cargos,رسوم
-Fixed Charge,Fixed Charge,Cargo fijo,شحنة ثابتة
+Fixed Charge,Fixed Charge,Cargo fijo,تهمة ثابتة
 Percent Charge,Percent Charge,Porcentaje de cargo,تكلفة في المئة
 Range,Range,Rango,يتراوح
 Minimum Amount,Minimum Amount,Monto minimo,الحد الأدنى للمبلغ
@@ -194,7 +194,7 @@ Sender Information,Sender Information,Información del remitente,معلومات 
 Wallet Name,Wallet Name,Nombre de billetera,اسم المحفظة
 IP,IP,IP,IP
 Browser,Browser,Navegador,متصفح
-OS,OS,Sistema operativo,نظام التشغيل
+OS,OS,OS,نظام التشغيل
 Timezone,Timezone,Zona horaria,وحدة زمنية
 Transaction Device Information,Transaction Device Information,Información del dispositivo de transacción,معلومات جهاز المعاملة
 Payment Summary,Payment Summary,Resumen de pago,ملخص الدفع
@@ -217,13 +217,13 @@ All Sell Crypto Logs,All Sell Crypto Logs,Todos venden registros de cifrado,جم
 Confirm Sell Crypto Logs,Confirm Sell Crypto Logs,Confirmar vender registros de cifrado,تأكيد بيع سجلات التشفير
 Sell Crypto Log Details,Sell Crypto Log Details,Vender detalles del registro de cifrado,بيع تفاصيل سجل التشفير
 Pending Sell Crypto Logs,Pending Sell Crypto Logs,Pendiente vender registros de cifrado,معلقة بيع سجلات التشفير
-Rejected Sell Crypto Logs,Rejected Sell Crypto Logs,Rechazado Vender registros de cifrado,تم رفض بيع سجلات التشفير
+Rejected Sell Crypto Logs,Rejected Sell Crypto Logs,Rechazados Vender registros de cifrado,تم رفض بيع سجلات التشفير
 All Withdraw Crypto Logs,All Withdraw Crypto Logs,Todos los registros de cifrado retiran,كل سجلات السحب المشفرة
 Confirm Withdraw Crypto Logs,Confirm Withdraw Crypto Logs,Confirmar retirar registros de cifrado,تأكيد سحب سجلات التشفير
 Withdraw Crypto Log Details,Withdraw Crypto Log Details,Retirar detalles del registro de cifrado,سحب تفاصيل سجل التشفير
 Wallet Code,Wallet Code,Código de billetera,رمز المحفظة
 Pending Withdraw Crypto Logs,Pending Withdraw Crypto Logs,Pendiente retirar registros criptográficos,في انتظار سحب سجلات التشفير
-Rejected Withdraw Crypto Logs,Rejected Withdraw Crypto Logs,Retiros rechazados Registros de cifrado,رفض سحب سجلات التشفير
+Rejected Withdraw Crypto Logs,Rejected Withdraw Crypto Logs,Rechazos de retiro de criptografía rechazada,رفض سحب سجلات التشفير
 Transaction Status updated successfully,Transaction Status updated successfully,Estado de transacción actualizado correctamente,تم تحديث حالة المعاملة بنجاح
 Transaction Rejected successfully,Transaction Rejected successfully,Transacción rechazada con éxito,رفضت المعاملة بنجاح
 Action,Action,Acción,فعل
@@ -257,7 +257,7 @@ Full Name,Full Name,Nombre completo,الاسم الكامل
 Phone Number,Phone Number,Número de teléfono,رقم التليفون
 Close,Close,Cerca,يغلق
 Send,Send,Enviar,يرسل
-SL,SL,SLA,SL
+SL,SL,SLE,SL
 MAC,MAC,MAC,ماك
 Location,Location,Ubicación,موقع
 Login at,Login at,Iniciar sesión en,تسجيل الدخول في
@@ -283,7 +283,7 @@ Admin not found!,Admin not found!,Admin no encontrado!,المسؤول لم يت�
 Admin status updated successfully!,Admin status updated successfully!,Estado de administrador actualizado con éxito!,تم تحديث حالة المسؤول بنجاح!
 Admin role created successfully!,Admin role created successfully!,¡Rol de administración creado con éxito!,تم إنشاء دور المسؤول بنجاح!
 Opps! Target role not found!,Opps! Target role not found!,¡Opps! ¡Rol de objetivo no encontrado!,أوس! الدور المستهدف لم يتم العثور عليه!
-Opps! Target not found!,Opps! Target not found!,¡Opps! Objetivo no encontrado!,أوس! الهدف لم يتم العثور عليه!
+Opps! Target not found!,Opps! Target not found!,¡Opps! ¡Objetivo no encontrado!,أوس! الهدف لم يتم العثور عليه!
 Admin role updated successfully!,Admin role updated successfully!,¡Rol de administración actualizado con éxito!,تم تحديث دور المسؤول بنجاح!
 Super admin role can\'t deletable.,Super admin role can\'t deletable.,El rol super administrador puede ser eliminable.,دور المشرف الفائق يمكن أن يكون قابلاً للحذف.
 Target role not found!,Target role not found!,¡Rol de objetivo no encontrado!,الدور المستهدف لم يتم العثور عليه!
@@ -296,7 +296,7 @@ Permission created successfully!,Permission created successfully!,¡Permiso crea
 Permission updated successfully!,Permission updated successfully!,¡Permiso actualizado con éxito!,تم تحديث إذن بنجاح!
 Permission deleted successfully!,Permission deleted successfully!,¡Permiso eliminado con éxito!,تم حذف إذن بنجاح!
 Role permission not found!,Role permission not found!,¡Permiso de rol no encontrado!,إذن الدور غير موجود!
-Permission assign successfully!,Permission assign successfully!,Permiso asignar con éxito!,إذن تعيين بنجاح!
+Permission assign successfully!,Permission assign successfully!,Permiso asignar con éxito!,إذن تخصيص بنجاح!
 Permission not found!,Permission not found!,¡Permiso no encontrado!,إذن لم يتم العثور عليه!
 Admin deleted successfully!,Admin deleted successfully!,Admin eliminado con éxito!,تم حذف المسؤول بنجاح!
 Site Base Color,Site Base Color,Color base del sitio,لون قاعدة الموقع
@@ -312,7 +312,7 @@ Force SSL,Force SSL,Forzar SSL,قوة SSL
 Email Notification,Email Notification,Notificación de correo electrónico,إشعار البريد الإلكتروني
 KYC Verification,KYC Verification,Verificación de KYC,التحقق من KYC
 Activated,Activated,Activado,مفعل
-Deactivated,Deactivated,Desactivado,إلغاء تنشيط
+Deactivated,Deactivated,Desactivado,إلغاء تنشيطه
 The base color field is required.,The base color field is required.,Se requiere el campo de color base.,حقل اللون الأساسي مطلوب.
 The web version field is required.,The web version field is required.,Se requiere el campo de la versión web.,حقل إصدار الويب مطلوب.
 The site name field is required.,The site name field is required.,Se requiere el campo Nombre del sitio.,حقل اسم الموقع مطلوب.
@@ -345,7 +345,7 @@ Splash screen updated successfully!,Splash screen updated successfully!,¡Pantal
 Android App URL,Android App URL,URL de la aplicación Android,Android App URL
 iOS App URL,iOS App URL,URL de la aplicación iOS,IOS APP URL
 The url title field is required.,The url title field is required.,Se requiere el campo de título de URL.,حقل عنوان عنوان URL مطلوب.
-The android url field is required.,The android url field is required.,Se requiere el campo URL de Android.,حقل عنوان URL Android مطلوب.
+The android url field is required.,The android url field is required.,Se requiere el campo URL de Android.,مطلوب حقل url Android.
 URL settings updated successfully!,URL settings updated successfully!,Configuración de URL actualizada con éxito!,تحديث إعدادات URL بنجاح!
 Add New Screen,Add New Screen,Agregar nueva pantalla,أضف شاشة جديدة
 Sub Title,Sub Title,Subtítulo,العنوان الفرعي
@@ -363,7 +363,7 @@ Your KYC information is rejected.,Your KYC information is rejected.,Su informaci
 Verify KYC,Verify KYC,Verificar KYC,تحقق من KYC
 Edit Screen,Edit Screen,Pantalla de edición,تحرير الشاشة
 The image field is required.,The image field is required.,Se requiere el campo de la imagen.,حقل الصورة مطلوب.
-Onboard Screen Added Successfully!,Onboard Screen Added Successfully!,¡Pantalla a bordo agregada con éxito!,أضيفت الشاشة على متن الطائرة بنجاح!
+Onboard Screen Added Successfully!,Onboard Screen Added Successfully!,¡Pantalla a bordo agregada con éxito!,أضافت الشاشة على متن الطائرة بنجاح!
 Onboard screen not found!,Onboard screen not found!,¡Pantalla a bordo no encontrada!,على متن الشاشة غير موجودة!
 Onboard screen status updated successfully!,Onboard screen status updated successfully!,Estado de la pantalla a bordo actualizado correctamente!,تم تحديث حالة الشاشة على متن الطائرة بنجاح!
 Onboard screen information updated successfully!,Onboard screen information updated successfully!,Información de pantalla a bordo actualizada correctamente!,تم تحديث معلومات الشاشة على متن الطائرة بنجاح!
@@ -387,7 +387,7 @@ Language deleted successfully!,Language deleted successfully!,Lenguaje eliminado
 Language updated successfully!,Language updated successfully!,¡Lenguaje actualizado con éxito!,تم تحديث اللغة بنجاح!
 Opps! Language not found!,Opps! Language not found!,¡Opps! ¡Lenguaje no encontrado!,أوس! اللغة لم يتم العثور عليها!
 File does not exists.,File does not exists.,El archivo no existe.,الملف لا يوجد.
-Language Keywords of English,Language Keywords of English,Palabras clave del idioma del inglés,كلمات اللغة الرئيسية للغة الإنجليزية
+Language Keywords of English,Language Keywords of English,Palabras clave del idioma del inglés,الكلمات الرئيسية للغة للغة الإنجليزية
 Email Send Method,Email Send Method,Método de envío de correo electrónico,طريقة إرسال البريد الإلكتروني
 Send Mail,Send Mail,Enviar correo,ارسل بريد
 Host,Host,Anfitrión,يستضيف
@@ -421,7 +421,7 @@ For color use '[]',For color use '[]',Para el uso del color '[]',لاستخدا�
 Add New Security,Add New Security,Agregar nueva seguridad,أضف أمنًا جديدًا
 Icon,Icon,Icono,أيقونة
 Edit Security Item,Edit Security Item,Editar elemento de seguridad,تحرير عنصر الأمان
-Section item added successfully!,Section item added successfully!,Artículo de sección agregado correctamente!,تم إضافة عنصر القسم بنجاح!
+Section item added successfully!,Section item added successfully!,¡Artículo de sección agregado con éxito!,تم إضافة عنصر القسم بنجاح!
 Section item deleted successfully!,Section item deleted successfully!,Sección Artículo eliminado con éxito!,تم حذف عنصر القسم بنجاح!
 Section item status updated successfully!,Section item status updated successfully!,Estado del elemento de sección actualizado correctamente!,تم تحديث حالة عنصر القسم بنجاح!
 Items not found or invalid!,Items not found or invalid!,¡Artículos no encontrados o inválidos!,العناصر غير موجودة أو غير صالحة!
@@ -454,9 +454,9 @@ New Blog Create,New Blog Create,Nuevo blog crea,مدونة جديدة إنشاء
 Add Tags,Add Tags,Agregar etiquetas,اضف اشارة
 Blog Edit Page,Blog Edit Page,Página de edición de blog,صفحة تحرير المدونة
 Blog Categories,Blog Categories,Categorías de blogs,فئات المدونة
-Add Blog Category,Add Blog Category,Añadir categoría de blog,إضافة فئة المدونة
+Add Blog Category,Add Blog Category,Añadir categoría de blog,أضف فئة المدونة
 Edit Blog Category,Edit Blog Category,Editar categoría de blog,تحرير فئة المدونة
-Category added successfully.,Category added successfully.,Categoría agregada con éxito.,أضافت الفئة بنجاح.
+Category added successfully.,Category added successfully.,Categoría agregada con éxito.,وأضاف الفئة بنجاح.
 Category status updated successfully!,Category status updated successfully!,Estado de categoría actualizado con éxito!,تحديث حالة الفئة بنجاح!
 Blog Category Updated Successfully.,Blog Category Updated Successfully.,Categoría de blog actualizada con éxito.,تم تحديث فئة المدونة بنجاح.
 Category successfully deleted.,Category successfully deleted.,Categoría eliminada con éxito.,تم حذف الفئة بنجاح.
@@ -474,11 +474,11 @@ Add Link,Add Link,Añadir enlace,إضافة رابط
 Slug,Slug,Babosa,سبيكة
 Content,Content,Contenido,محتوى
 Use for make page link (URL),Use for make page link (URL),Usar para hacer el enlace de página (URL),استخدم لجعل رابط الصفحة (URL)
-Are you sure to delete this link?,Are you sure to delete this link?,¿Seguro que eliminará este enlace?,هل أنت متأكد من حذف هذا الرابط؟
+Are you sure to delete this link?,Are you sure to delete this link?,¿Estás seguro de eliminar este enlace?,هل أنت متأكد من حذف هذا الرابط؟
 Useful link added successfully!,Useful link added successfully!,Enlace útil agregado con éxito!,رابط مفيد أضيفت بنجاح!
 Edit Usefull Link,Edit Usefull Link,Editar enlace útil,تحرير رابط مفيد
 Useful link updated successfully!,Useful link updated successfully!,Enlace útil actualizado con éxito!,رابط مفيد تم تحديثه بنجاح!
-Useful link deleted successfully!,Useful link deleted successfully!,¡Enlace útil eliminado con éxito!,رابط مفيد تم حذفه بنجاح!
+Useful link deleted successfully!,Useful link deleted successfully!,Enlace útil eliminado con éxito!,رابط مفيد تم حذفه بنجاح!
 Useful link status updated successfully!,Useful link status updated successfully!,Estado útil del enlace actualizado correctamente!,تم تحديث حالة الرابط المفيدة بنجاح!
 Website Subscribers,Website Subscribers,Suscriptores del sitio web,مشتركي الموقع
 Send Mail to All,Send Mail to All,Enviar correo a todos,أرسل البريد إلى الجميع
@@ -514,7 +514,7 @@ The gateway name has already been taken.,The gateway name has already been taken
 Payment gateway added successfully!,Payment gateway added successfully!,¡PAGO GIERTWAY agregado con éxito!,وأضاف بوابة الدفع بنجاح!
 Payment gateway status updated successfully!,Payment gateway status updated successfully!,Estado de la pasarela de pago actualizado correctamente!,تم تحديث حالة بوابة الدفع بنجاح!
 Image upload failed! Please try again.,Image upload failed! Please try again.,¡Falló la carga de imagen! Inténtalo de nuevo.,فشل تحميل الصورة! حاول مرة اخرى.
-Payment gateway updated successfully!,Payment gateway updated successfully!,¡Pase de entrada actualizada con éxito!,تم تحديث بوابة الدفع بنجاح!
+Payment gateway updated successfully!,Payment gateway updated successfully!,¡Pase de pasar por la pasarela actualizada con éxito!,تم تحديث بوابة الدفع بنجاح!
 Payment gateway deleted successfully!,Payment gateway deleted successfully!,¡Pague pasarela eliminada con éxito!,تم حذف بوابة الدفع بنجاح!
 Manual Payment Method,Manual Payment Method,Método de pago manual,طريقة الدفع اليدوي
 Currency Code,Currency Code,Código de moneda,رمز العملة
@@ -539,7 +539,7 @@ APP ID,APP ID,ID de aplicación,معرف التطبيق
 Body,Body,Cuerpo,جسم
 Time,Time,Tiempo,وقت
 Latest Notifications,Latest Notifications,Últimas notificaciones,أحدث الإخطارات
-Notification Body,Notification Body,Cuerpo de notificación,هيئة الإخطار
+Notification Body,Notification Body,Notificación Cuerpo,هيئة الإخطار
 Sorry! You have to configure first to send push notification.,Sorry! You have to configure first to send push notification.,¡Lo siento! Debe configurar primero para enviar una notificación push.,آسف! يجب عليك تكوين أولاً لإرسال إشعار الدفع.
 Opps! Failed to store information.,Opps! Failed to store information.,¡Opps! No pudo almacenar información.,أوس! فشل في تخزين المعلومات.
 Notification sended successfully!,Notification sended successfully!,¡Notificación enviada con éxito!,أرسل الإخطار بنجاح!
@@ -548,7 +548,7 @@ Policy Link,Policy Link,Enlace de política,رابط السياسة
 Cookie information updated successfully!,Cookie information updated successfully!,¡Información de cookies actualizada con éxito!,تم تحديث معلومات ملفات تعريف الارتباط بنجاح!
 App Name,App Name,Nombre de la aplicación,اسم التطبيق
 App Environment,App Environment,Entorno de aplicaciones,بيئة التطبيق
-App Debug,App Debug,Depurar la aplicación,App Debug
+App Debug,App Debug,Depurar la aplicación,تصحيح التطبيق
 App Mode,App Mode,Modo de aplicación,وضع التطبيق
 Database Connection,Database Connection,Conexión de base de datos,اتصال قاعدة البيانات
 Database Host,Database Host,Host de base de datos,مضيف قاعدة البيانات
@@ -580,13 +580,13 @@ Min Sidebar Color,Min Sidebar Color,Min Color de la barra lateral,لون الش�
 Sidebar Color,Sidebar Color,Color de la barra lateral,لون الشريط الجانبي
 Topbar Color,Topbar Color,Color topbar,لون الشريط
 Layout Mode,Layout Mode,Modo de diseño,وضع التصميم
-Total Buy Crypto Transactions,Total Buy Crypto Transactions,Total de compra de transacciones criptográficas,إجمالي شراء المعاملات التشفير
+Total Buy Crypto Transactions,Total Buy Crypto Transactions,Total de compra de transacciones criptográficas,إجمالي شراء معاملات التشفير
 Convert Amount,Convert Amount,Convierta la cantidad,تحويل المبلغ
 You cannot exchange crypto using the same wallet,You cannot exchange crypto using the same wallet,No puedes intercambiar cripto usando la misma billetera,لا يمكنك تبادل التشفير باستخدام نفس المحفظة
 Basic Settings Data Fetch Successfully.,Basic Settings Data Fetch Successfully.,Configuración básica Los datos obtienen éxito.,إعدادات الإعدادات الأساسية جلب بنجاح.
 Language data fetch successfully!,Language data fetch successfully!,¡Los datos del idioma obtienen con éxito!,جلب بيانات اللغة بنجاح!
 Notification Data Fetch Successfuly.,Notification Data Fetch Successfuly.,Los datos de notificación obtienen éxito.,بيانات الإخطار جلبت ناجحة.
-Country List Fetch Successfully!,Country List Fetch Successfully!,¡Lista de país para obtener con éxito!,القائمة الريفية جلب بنجاح!
+Country List Fetch Successfully!,Country List Fetch Successfully!,"¡Lista de país, obtenga con éxito!",القائمة الريفية جلب بنجاح!
 Active Ticket,Active Ticket,Boleto activo,تذكرة نشطة
 Solved Ticket,Solved Ticket,Boleto resuelto,تذكرة حل
 Pending Ticket,Pending Ticket,Boleto pendiente,تذكرة معلقة
@@ -653,7 +653,7 @@ On Hold,On Hold,En espera,في الانتظار
 Settled,Settled,Establecido,تسوية
 Completed,Completed,Terminado,مكتمل
 Failed,Failed,Fallido,فشل
-Refunded,Refunded,Reintegrado,رد
+Refunded,Refunded,Reintegrado,استرداد
 View User,View User,Ver usuario,عرض المستخدم
 Download,Download,Descargar,تحميل
 Type Here,Type Here,Escriba aquí,أكتب هنا
@@ -661,7 +661,7 @@ Type Here,Type Here,Escriba aquí,أكتب هنا
 Profile successfully updated!,Profile successfully updated!,Perfil actualizado con éxito!,تم تحديث الملف الشخصي بنجاح!
 Password successfully updated,Password successfully updated,Contraseña actualizada correctamente,تم تحديث كلمة المرور بنجاح
 The password must be at least 6 characters.,The password must be at least 6 characters.,La contraseña debe tener al menos 6 caracteres.,يجب أن تكون كلمة المرور 6 أحرف على الأقل.
-Current password didn\'t match,Current password didn\'t match,La contraseña actual no coincidía,كلمة المرور الحالية لم تتطابق
+Current password didn\'t match,Current password didn\'t match,La contraseña actual no coincidía,كلمة المرور الحالية لم تطابق
 Something went wrong! Please try again,Something went wrong! Please try again,¡Algo salió mal! Inténtalo de nuevo,هناك خطأ ما! حاول مرة اخرى
 The firstname field is required.,The firstname field is required.,Se requiere el campo Nombre FirstName.,حقل الاسم الأول مطلوب.
 The lastname field is required.,The lastname field is required.,Se requiere el campo LastName.,مطلوب حقل الاسم الأخير.
@@ -711,7 +711,7 @@ Write Service Name,Write Service Name,Escribir el nombre del servicio,اكتب �
 Enter Price,Enter Price,Ingresar precio,أدخل السعر
 Max,Max,Máximo,الأعلى
 Parlour already exists!,Parlour already exists!,¡La sala ya existe!,صالون موجود بالفعل!
-Parlour Created Successfully!,Parlour Created Successfully!,Salón creado con éxito!,ابتكر صالون بنجاح!
+Parlour Created Successfully!,Parlour Created Successfully!,Salón creado con éxito!,ابتكرت صالون بنجاح!
 Parlour List Not Exists!,Parlour List Not Exists!,¡La lista de salones no existe!,قائمة صالون لا توجد!
 Parlour Updated Successfully!,Parlour Updated Successfully!,Salón actualizado con éxito!,تم تحديث صالون بنجاح!
 Parlour list status updated successfully!,Parlour list status updated successfully!,Estado de la lista de salones actualizado correctamente!,تم تحديث حالة قائمة صالون بنجاح!
@@ -797,7 +797,7 @@ Didn't get the code?,Didn't get the code?,¿No obtuvo el código?,لم تحصل 
 Resend,Resend,Revender,إعادة إرسال
 Mail Resend Success!,Mail Resend Success!,Correo de reiniciar el éxito!,البريد إعادة تقديم النجاح!
 Please verify your mail address. Check your mail inbox to get verification code,Please verify your mail address. Check your mail inbox to get verification code,Verifique su dirección de correo. Verifique su bandeja de entrada de correo para obtener el código de verificación,يرجى التحقق من عنوان البريد الخاص بك. تحقق من صندوق البريد الخاص بك للحصول على رمز التحقق
-Account successfully verified,Account successfully verified,Cuenta verificada con éxito,الحساب تم التحقق منه بنجاح
+Account successfully verified,Account successfully verified,Cuenta verificada con éxito,تم التحقق من الحساب بنجاح
 Reset Your Forgotten Password?,Reset Your Forgotten Password?,Restablecer su contraseña olvidada?,أعد ضبط كلمة المرور المنسية؟
 Take control of your account by resetting your password. Our password recovery page guides you through the necessary steps to securely reset your password.,Take control of your account by resetting your password. Our password recovery page guides you through the necessary steps to securely reset your password.,Tome el control de su cuenta restableciendo su contraseña. Nuestra página de recuperación de contraseña lo guía a través de los pasos necesarios para restablecer de forma segura su contraseña.,تحكم في حسابك عن طريق إعادة تعيين كلمة المرور الخاصة بك. توجهك صفحة استرداد كلمة المرور الخاصة بنا من خلال الخطوات اللازمة لإعادة تعيين كلمة المرور الخاصة بك بشكل آمن.
 Send OTP,Send OTP,Enviar OTP,إرسال OTP
@@ -832,7 +832,7 @@ Enter Number,Enter Number,Ingresar número,أدخل رقم
 Profile successfully updated!,Profile successfully updated!,Perfil actualizado con éxito!,تم تحديث الملف الشخصي بنجاح!
 Password successfully updated,Password successfully updated,Contraseña actualizada correctamente,تم تحديث كلمة المرور بنجاح
 The password must be at least 6 characters.,The password must be at least 6 characters.,La contraseña debe tener al menos 6 caracteres.,يجب أن تكون كلمة المرور 6 أحرف على الأقل.
-Current password didn\'t match,Current password didn\'t match,La contraseña actual no coincidía,كلمة المرور الحالية لم تتطابق
+Current password didn\'t match,Current password didn\'t match,La contraseña actual no coincidía,كلمة المرور الحالية لم تطابق
 Something went wrong! Please try again,Something went wrong! Please try again,¡Algo salió mal! Inténtalo de nuevo,هناك خطأ ما! حاول مرة اخرى
 The firstname field is required.,The firstname field is required.,Se requiere el campo Nombre FirstName.,حقل الاسم الأول مطلوب.
 The lastname field is required.,The lastname field is required.,Se requiere el campo LastName.,مطلوب حقل الاسم الأخير.
@@ -866,7 +866,7 @@ Attachments,Attachments,Archivos adjuntos,المرفقات
 The subject field is required.,The subject field is required.,Se requiere el campo de sujeto.,حقل الموضوع مطلوب.
 The attachment field is required.,The attachment field is required.,Se requiere el campo de fijación.,حقل المرفق مطلوب.
 Oops!! Failed to upload attachment. Please try again.,Oops!! Failed to upload attachment. Please try again.,¡¡Ups!! No se pudo cargar el archivo adjunto. Inténtalo de nuevo.,أُووبس!! فشل في تحميل المرفق. حاول مرة اخرى.
-Support ticket created successfully!,Support ticket created successfully!,¡Ticket de apoyo creado con éxito!,تذكرة دعم تم إنشاؤها بنجاح!
+Support ticket created successfully!,Support ticket created successfully!,¡Ticket de apoyo creado con éxito!,تذكرة الدعم التي تم إنشاؤها بنجاح!
 Conversation,Conversation,Conversación,محادثة
 Support Details,Support Details,Detalles de soporte,تفاصيل الدعم
 Description,Description,Descripción,وصف
@@ -874,7 +874,7 @@ Description,Description,Descripción,وصف
 Support Ticket,Support Ticket,Boleto de apoyo,بطاقة الدعم
 Enter Subject,Enter Subject,Entrar en el sujeto,أدخل الموضوع
 Write something,Write something,Escribe algo,أكتب شيئا
-Service Select,Service Select,Selección de servicio Seleccionar,اختر الخدمة
+Service Select,Service Select,Seleccione de servicio Seleccionar,اختر الخدمة
 Select Date,Select Date,Seleccione fecha,حدد تاريخ
 Select Time,Select Time,Tiempo de selección,حدد الوقت
 Appointment Preview,Appointment Preview,Vista previa de la cita,معاينة الموعد
@@ -883,230 +883,230 @@ Select Payment Method,Select Payment Method,Seleccionar método de pago,اختا
 Confirm Booking,Confirm Booking,Reserva confirmada,تأكيد الحجز
 Checkout,Checkout,Verificar,الدفع
 Service Type,Service Type,Tipo de servicio,نوع الخدمة
-appLAppName,appLAppName,aplazador,ApplappName
-appLAppVersion,appLAppVersion,compatibilidad,Applappversion
-appLSlogan,appLSlogan,aplicado,Applslogan
-appLSkip,appLSkip,aplicado,Applskip
-appLTimeNotAvailable,appLTimeNotAvailable,AppligiMenotaveilable,Appltimenotavailivail
-appLSignUpSuccess,appLSignUpSuccess,Applsignupsuccess,ApplSignupSuccess
-appLSuccessPayment,appLSuccessPayment,apagón,ApplsuccessPayment
-appLMobile,appLMobile,mobile de aplicaciones,Applmobile
-appLTime,appLTime,tiempo de aplicación,Appltime
-appLResetPasswordSuccess,appLResetPasswordSuccess,ApplesetPassWordSuccess,ApplResetPasswordsuccess
-appLTotalServicePrice,appLTotalServicePrice,ApplTotalServicePrice,AppltotalservicePrice
-appLPaymentMethod,appLPaymentMethod,métoda de aplicaciones,ApplpaymentMethod
-appLPaymentInformation,appLPaymentInformation,ApplPayMentInformation,applpaymentInformation
-appLSerialNumber,appLSerialNumber,aplicserialnumber,ApplserialNumber
-appLScheduleInformation,appLScheduleInformation,ApplscheduleInformation,ApplsCheduleInformation
-appLContact,appLContact,aplicar,ApplContact
-appLBookingDetails,appLBookingDetails,ApplbookingDetails,ApplockingDetails
-appLCurrentPassword,appLCurrentPassword,ApplCurrentPassword,ApplcurrentPassword
-appLFind,appLFind,aplicar,Applfind
-appLServiceName,appLServiceName,nombre de applserviceN,ApplServicename
-appLServiceInformation,appLServiceInformation,ApplServiceInformation,ApplServiceInformation
-appLNoDataFound,appLNoDataFound,appliodatafound,Applnodatafound
-appLPaypal,appLPaypal,applpaypal,Applpaypal
-appLPayment,appLPayment,apagón,Applpayment
-appLServiceType,appLServiceType,ApplserviceType,ApplServiceType
-appLAppointmentPreview,appLAppointmentPreview,PlaypintmentPreview,ApplappointmentPreview
-appLParlourDetails,appLParlourDetails,ApplparlourDetails,papparlourdetails
-appLServiceSelect,appLServiceSelect,ApplServicesElect,ApplServicesElect
-appLEmptyString,appLEmptyString,Estrprentytring,AppleremptyString
-appLCancel,appLCancel,aplicado,Applcancel
-appLSelectPaymentMethod,appLSelectPaymentMethod,ApplSelectPaymentMethod,appleslectpaymentMethod
-appLParlourName,appLParlourName,Applparlourname,Papparlourname
-appLNext,appLNext,aplanado,Applnext
-appLExperience,appLExperience,applexperience,applexperience
-appLParlourAddress,appLParlourAddress,aplicaciones,papparlouraddress
-appLMakeAppointment,appLMakeAppointment,ApplmakePointment,ApplmakeAppointment
-appLSearch,appLSearch,aplicar,Applsearch
-appLGetService,appLGetService,servicio de aplicación,ApplgetService
-appLLogMessage,appLLogMessage,aplogMessage,AppLlogMessage
-appLWelcomeTitle,appLWelcomeTitle,aplicador de aplicaciones,applwelcometitle
-appLWelcomeSubTitle,appLWelcomeSubTitle,Applwelcomesubtitle,applwelcomesubtitle
-appLSelectLanguage,appLSelectLanguage,ApplelectLanguage,appleslectlanguage
-appLWelcomeTitleText,appLWelcomeTitleText,ApplwelCometitLetext,applwelcometitletext
-appLWelcomeSubTitleText,appLWelcomeSubTitleText,ApplwelComesubtitLetext,applwelcomesubtitletext
-appLCustomerType,appLCustomerType,ApplCustomerType,ApplcustomerType
-appLForgotPassword,appLForgotPassword,ApplForgotPassword,appforgotpassword
-appLNewToeSalon,appLNewToeSalon,Applnewtoesalon,Applnewtoesalon
-appLForgotPasswordText,appLForgotPasswordText,ApplForGotPasswordText,AppforgOtpasswordText
-appLContinueText,appLContinueText,applContinuetext,ApplcontinueText
-appLForgotPasswordTitle,appLForgotPasswordTitle,ApplforGotPasswordTitle,AppforgOtpasswordtitle
-appLDidNotGetCode,appLDidNotGetCode,appldidnotgetcode,AppLdDnotgetCode
-appLIdentityVerification,appLIdentityVerification,Applidentityverification,التكرار
-appLConfirmNewPassword,appLConfirmNewPassword,ApplconfirmNewPassword,ApplConfirmNewPassword
-appLSignUpSubTitle,appLSignUpSubTitle,Applsignupsubtitle,ApplSignupSubtitle
-appLAgreeToPrivacyPolicyText,appLAgreeToPrivacyPolicyText,cepillo,AppleagreetOprivAcypolicytext
-appLAlreadyHaveAccount,appLAlreadyHaveAccount,ApplereadyhaveAcCount,ApplalReadyHaveAccount
-appLSchedule,appLSchedule,aplicada,ApplsChedule
-appLParlourList,appLParlourList,lista de aplicaciones,appparlourlist
-appLHomeAppbarWelcomeText,appLHomeAppbarWelcomeText,APPLHOMEPPBARWELCOXTEXT,ApplhomeAppBarWelcomeText
-appLSpecializationField,appLSpecializationField,ApplSpecializationfield,ApplSpecializationField
-appLCategories,appLCategories,Categorías de aplicaciones,فئة Applcategories
-appLPrice,appLPrice,aplicado,Applprice
-appLSpecialistType,appLSpecialistType,ApplSpecialistType,ApplSpecialisttype
-appLApplyFilter,appLApplyFilter,aplazador,applapplyfilter
-appLDiscountPercentage,appLDiscountPercentage,appldiscountpercentage,APPLDISCOUNTPERCENTAGE
-appLHairTreatment,appLHairTreatment,aplicado,Applhairtertertment
-appLExplore,appLExplore,applexplore,applexplore
-appLPopularExpert,appLPopularExpert,ApplpopoLarexpert,Applpopularexpert
-appLSeeAll,appLSeeAll,aplicado,Applseeall
-appLEditProfile,appLEditProfile,AppleditProfile,appleditprofile
-appLHaircutSpecialist,appLHaircutSpecialist,aplicativo,applhaircutspecialist
-appLBasicInfo,appLBasicInfo,AppleBasicinfo,Applbasicinfo
-appLReviews,appLReviews,aplicaciones,Applreviews
-appLLocation,appLLocation,Apploclocation,AppLlocation
-appLCustomerReview,appLCustomerReview,ApplCustomerReview,ApplcustomerReview
-appLCustomerName,appLCustomerName,ApplCustomername,ApplcustomerName
-appLScheduleBook,appLScheduleBook,Applschedulebook,ApplsCheduleBook
-appLType,appLType,aplicado,Appltype
-appLSelectSpecialist,appLSelectSpecialist,Applselectspecialist,appleclectspecialist
-appLSelectDate,appLSelectDate,aplicada,appleclectdate
-appLAvailableSlot,appLAvailableSlot,meta,ApplavailablesLot
-appLBookAppointment,appLBookAppointment,apoderador de la aplicación,applockappointment
-appLDate,appLDate,appldate,appldate
-appLHistoryTwo,appLHistoryTwo,aplhistorytwo,Applhistorytwo
-appLScheduled,appLScheduled,aplicado,ApplsCheduled
-appLAppointmentAt,appLAppointmentAt,apuros,Applappointmentat
-appLSkincareType,appLSkincareType,Applskincaretype,applskincaretype
-appLSkincareDetails,appLSkincareDetails,Applskincedetars,Applskincaredetails
-appLSpecialist,appLSpecialist,aplicialista,ApplSpecialist
-appLProfessional,appLProfessional,apropiosional,Applprofessional
-appLBookScheduleNow,appLBookScheduleNow,ApplbookSchedulenow,applockschedulenow
-appLTermsAndPoliciesText,appLTermsAndPoliciesText,Applerms yPoliciestExtext,ApplterMsandPoliciestExt
-appLCopyRight,appLCopyRight,applcopyright,Applcopyright
-appLMessage,appLMessage,aplicado,Applmessage
-appLSubmitNow,appLSubmitNow,applsubmitnow,Applsubmitnow
-appLPleaseFillOutTheField,appLPleaseFillOutTheField,ApplIeSeFilloutTheField,ApplpleaseFilloutTheField
-appLSignIn,appLSignIn,aplicada,Applsignin
-appLSaveChanges,appLSaveChanges,Applsavechanges,Applsavechanges
-appLCategoriesAndPrice,appLCategoriesAndPrice,Applicategories y Price,ApplCategoriesAndPrice
-appLSignUp,appLSignUp,aplicada,ApplSignup
-appLUserNameOrEmailAddress,appLUserNameOrEmailAddress,AppluserNameoremailaddress,AppluserNameoremailaddress
-appLPassword,appLPassword,Appl Word,ApplPassword
-appLForgetPassword,appLForgetPassword,ApplForgetPassword,appforgepspassword
-appLGetStarted,appLGetStarted,aplicado,ApplgetStarted
-appLEmailAddress,appLEmailAddress,Applemailaddress,Applemailaddress
-appLEnterTheOTPCodeSendTo,appLEnterTheOTPCodeSendTo,ApplenterTheotpCodesendTo,eleventertheotpcodesendto
-appLVerifiedCode,appLVerifiedCode,código aplicable,ApplevifiedCode
-appLSubmit,appLSubmit,applsubmit,Applsubmit
-appLOTPVerification,appLOTPVerification,APLOTPVERIFICACIÓN,ApplotPverification
-appLEmailVerification,appLEmailVerification,Applemailverificación,applemailverification
-appLResend,appLResend,aplaso,Applisend
-appLNewPassword,appLNewPassword,Applnewpassword,Applnewpassword
-appLConfirmPassword,appLConfirmPassword,ApplconfirmPassword,ApplConfirmpassword
-appLEnter,appLEnter,aplicador,المتميز
-appLResetPassword,appLResetPassword,ApplesetPassword,ApplResetPassword
-appLCongratulation,appLCongratulation,aplicaciones de aplicaciones,Applcongratulation
-appLCreateAccount,appLCreateAccount,AppleateAcCount,ApplcreateaCcount
-appLFirstName,appLFirstName,ApplfirstName,ApplfirstName
-appLLastName,appLLastName,aplastName,AppLlastName
-appLBio,appLBio,aplicada,Applbio
-appLOkay,appLOkay,aplazamiento,Applokay
-appLTransfer,appLTransfer,aplicatransfer,Appltransfer
-appLHome,appLHome,aplicativo,Applhome
-appLProfile,appLProfile,apropiado,Applprofile
-appLAddMoney,appLAddMoney,apequeo,Appladdmoney
-appLMoneyOut,appLMoneyOut,aplicado,ApplMoneyout
-appLExchange,appLExchange,cambio de applex,applexChange
-appLRequest,appLRequest,aplicador de aplicaciones,Applrequest
-appLRecentTransaction,appLRecentTransaction,ApplecentTransaction,ApprecentTransaction
-appLNotification,appLNotification,aplnotificación,ApplNotification
-appLMyInvoice,appLMyInvoice,aplicación,ApplmyInvoice
-appLMyVoucher,appLMyVoucher,applmyvoucher,Applmyvoucher
-appLTransactionLog,appLTransactionLog,AppltransactionLog,AppltransactionLog
-appLTwoFASecurity,appLTwoFASecurity,Appltwofasecurity,appltwofasecurity
-appLChangePassword,appLChangePassword,ApplchangePassword,ApplChangePassword
-appLHelpCenter,appLHelpCenter,aplicador,Applhelpcenter
-appLPrivacyAndPolicy,appLPrivacyAndPolicy,Applprivacyandpolicy,Applprivacyandpolicy
-appLAboutUs,appLAboutUs,complejo,Applaboutus
-appLSignOut,appLSignOut,aplicado,ApplSignout
-appLAmount,appLAmount,aplamour,Applamount
-appLPreviewScreen,appLPreviewScreen,ApplPreviewScreen,ApplpreviewScreen
-appLExchangeRate,appLExchangeRate,applexcharter,applexChangerate
-appLTotalFeesAndCharges,appLTotalFeesAndCharges,Appltotalfees y Charges,Appltotalfeesandcharges
-appLWillGet,appLWillGet,aplicador,Applwillget
-appLTotalPayableAmount,appLTotalPayableAmount,AppltotalpayableAlount,AppltotalPayAbleAmount
-appLConfirm,appLConfirm,applconfirm,ApplConfirm
-appLMoneyExchange,appLMoneyExchange,ApplmoneyExchange,Applmoneyexchange
-appLFrom,appLFrom,aplicaciones,Applfrom
-appLTo,appLTo,aplicar,المطل
-appLRequestMoney,appLRequestMoney,ApplrequestMoney,ApplrequestMoney
-appLRemarks,appLRemarks,marcas de aplicaciones,اطلب
-appLOptional,appLOptional,apaltical,Apploptional
-appLShareRequestMoney,appLShareRequestMoney,ApplSharerequestMoney,applsharerequestmoney
-appLShare,appLShare,aplicado,Applshare
-appLMoneyTransfer,appLMoneyTransfer,ApplmoneyTransfer,ApplmoneyTransfer
-appLAvailableBalance,appLAvailableBalance,balance de aplave,Applavailableance
-appLReceiver,appLReceiver,aplicador,اطلب
-appLProfileLabel,appLProfileLabel,Approfilelabel,ApplprofileLabel
-appLFullName,appLFullName,nombre de la aplicación,AppluflName
-appLCountry,appLCountry,aplicado,Applcountry
-appLMobileNumber,appLMobileNumber,APPLOBILENEMBER,Applmobilenumber
-appLState,appLState,aplicar,Applstate
-appLCity,appLCity,aplicación,Applcity
-appLZipCode,appLZipCode,choque de aplicaciones,ApplzipCode
-appLAddress,appLAddress,appladdress,Appladdress
-appLUpdate,appLUpdate,aplicado,appddate
-appLPaid,appLPaid,aplicado,Applpaid
-appLSent,appLSent,aplicado,Applsent
-appLUnPaid,appLUnPaid,apago,Applunpaid
-appLInvoiceNumber,appLInvoiceNumber,AplinvoicEnumber,Applinvoicenber
-appLInvoiceDate,appLInvoiceDate,applinVoisEdate,Applinvoicedate
-appLCurrency,appLCurrency,aplicada,العملات
-appLPickGoods,appLPickGoods,Applpickgoods,Applpickgoods
-appLTrickGoods,appLTrickGoods,Appltrrickgoods,Appltrickgoods
-appLTotalBill,appLTotalBill,aplicada,Appltotalbill
-appLCreateInvoice,appLCreateInvoice,apliqueinvoice,ApplcreateInvoice
-appLInvoiceTo,appLInvoiceTo,aplinvoiceto,Applinvoiceto
-appLBillingAddress,appLBillingAddress,ApplbillingAddress,Applbillingaddress
-appLNotes,appLNotes,aplnotes,Applnotes
-appLItemDetails,appLItemDetails,aplicados,applitemDetails
-appLClientName,appLClientName,ApplClientName,ApplclientName
-appLAddNew,appLAddNew,appladdnew,APPADDNEW
-appLItemName,appLItemName,nombre de la solicitud,Applitemname
-appLVoucher,appLVoucher,aplicador,Applvoucher
-appLRedeem,appLRedeem,aplicado,Applredeem
-appLUsed,appLUsed,aplicado,تطبق
-appLNotUsed,appLNotUsed,aplicado,Applnotused
-appLName,appLName,aplicar,Applname
-appLEmail,appLEmail,Applemail,Applemail
-appLPhone,appLPhone,aplicación,Appling
-appLFeesAndCharge,appLFeesAndCharge,aplicados y cargo,Applfeesandcharge
-appLStatus,appLStatus,applstatus,Applstatus
-appLCode,appLCode,aplicar el código,Applcode
-appLCreateVoucher,appLCreateVoucher,ApplicreeVoucher,Applcreatevoucher
-appLConfirmRedeem,appLConfirmRedeem,Applconfirmredeem,ApplConfirmreeMeeM
-appLRedeemCode,appLRedeemCode,appledeemcode,ApplredEemcode
-appLAddMoneyLog,appLAddMoneyLog,Appladdmoneylog,APPADDMoneylog
-appLMoneyOutLog,appLMoneyOutLog,ApplmoneyOutlog,Applmoneyoutlog
-appLExchangeLog,appLExchangeLog,applexchangelog,applexchangelog
-appLRequestLog,appLRequestLog,Applrequestlog,Applrequestlog
-appLBackToHome,appLBackToHome,Applbacktohome,Applbacktohome
-appLEnable2faSecurity,appLEnable2faSecurity,APLENABLE2FASECURIDAD,Applenable2FASecurity
-appLSendVerificationCode,appLSendVerificationCode,ApplsendverificationCode,ApplSendVerificationCode
-appLOldPassword,appLOldPassword,ApploldPassword,ApploldPassword
-appLIndividual,appLIndividual,aplicativo,المطلقة
-appLBusiness,appLBusiness,aplicado,Applbusiness
-appLMiddleName,appLMiddleName,Applmiddlename,Applmiddlename
-appLUserName,appLUserName,nombre de aplicación,AppluserName
-appLPostalCode,appLPostalCode,código de apostal,ApplpostalCode
-appLCompanyName,appLCompanyName,ApplCompanyName,Applcompanyname
-appLGender,appLGender,aplicador,Applgender
-appLDateOfBirth,appLDateOfBirth,appldateofbirth,appldateofbirth
-appLNationality,appLNationality,aplicaciones,Applnationality
-appLMyReceipt,appLMyReceipt,AplMyReceipt,ApplmyReceipt
-appLTotalExchangedAmount,appLTotalExchangedAmount,AppltotalExchangedMount,appltotalexchangedamount
-appLConvertedAmount,appLConvertedAmount,ApplconvertedMount,ApplConvertedAmount
-appLRequestedAmount,appLRequestedAmount,ApplrequestedMount,ApplrequestedAmount
-appLContactUs,appLContactUs,applcontactus,ApplContactus
-appLTermsAndPolicies,appLTermsAndPolicies,apolicías,ApplterMsandPolicies
-appLShareApp,appLShareApp,applshareApp,Applshareapp
-appLRating,appLRating,de aplicación,التراجع
-appLPhoneNumber,appLPhoneNumber,APPLPHONENENEMBER,Applphonenber
-appLFromGallery,appLFromGallery,Applyfromgallery,Applfromgallery
-appLFromCamera,appLFromCamera,ApplFromCamera,applfromcamera
+appLAppName,eSalon,esalon,esalon
+appLAppVersion,1.0.0,1.0.0,1.0.0
+appLSlogan,We care about you,Nos preocupamos por usted,نحن نهتم بك
+appLSkip,Skip,Saltar,يتخطى
+appLTimeNotAvailable,Selected time not available,Tiempo seleccionado no disponible,وقت محدد غير متوفر
+appLSignUpSuccess,Sign Up Successful,Regístrese exitoso,الاشتراك بنجاح
+appLSuccessPayment,Payment Successful,Pago exitoso,الدفع ناجح
+appLMobile,Mobile,Móvil,متحرك
+appLTime,Time,Tiempo,وقت
+appLResetPasswordSuccess,Reset Password Successful,Restablecer contraseña exitosa,إعادة تعيين كلمة المرور الناجحة
+appLTotalServicePrice,Total Service Price,Precio total de servicio,إجمالي سعر الخدمة
+appLPaymentMethod,Payment Method,Método de pago,طريقة الدفع او السداد
+appLPaymentInformation,Payment Information,Información del pago,معلومات الدفع
+appLSerialNumber,Serial Number,Número de serie,رقم سري
+appLScheduleInformation,Schedule Information,Programar información,جدولة المعلومات
+appLContact,Contact,Contacto,اتصال
+appLBookingDetails,Booking Details,Detalles de la reserva,تفاصيل الحجز
+appLCurrentPassword,Current Password,Contraseña actual,كلمة السر الحالية
+appLFind,Find,Encontrar,يجد
+appLServiceName,Service Name,Nombre del Servicio,اسم الخدمة
+appLServiceInformation,Service Information,Servicio de información,معلومات الخدمة
+appLNoDataFound,No Data Found!,¡Datos no encontrados!,لاتوجد بيانات!
+appLPaypal,Paypal,Paypal,PayPal
+appLPayment,Payment,Pago,قسط
+appLServiceType,Service Type,Tipo de servicio,نوع الخدمة
+appLAppointmentPreview,Appointment Preview,Vista previa de la cita,معاينة الموعد
+appLParlourDetails,Parlour Details,Detalles de la sala,تفاصيل صالون
+appLServiceSelect,Service Select,Seleccione de servicio Seleccionar,SELECT SELECT
+appLEmptyString,""" ""","""",""""" """
+appLCancel,Cancel,Cancelar,يلغي
+appLSelectPaymentMethod,Select Payment Method,Seleccionar método de pago,اختار طريقة الدفع
+appLParlourName,Parlour Name,Nombre de la sala,اسم صالون
+appLNext,Next,Próximo,التالي
+appLExperience,Experience,Experiencia,خبرة
+appLParlourAddress,Parlour Address,Dirección de la sala,عنوان صالون
+appLMakeAppointment,Make Appointment,Concertar cita,حدد موعدا
+appLSearch,Search,Buscar,يبحث
+appLGetService,Get Service,Obtener servicio,احصل على خدمة
+appLLogMessage,Do you want to Sign Out?,¿Quieres firmar?,هل تريد تسجيل الخروج؟
+appLWelcomeTitle,Book an Appointment for Salon,Reserve una cita para el salón,حجز موعد للصالون
+appLWelcomeSubTitle,Salons have a reputation for being a place where clients can go to get services done and be pampered in a peaceful environment.,Los salones tienen la reputación de ser un lugar donde los clientes puedan ir a realizar servicios y ser mimados en un entorno pacífico.,تتمتع الصالونات بسمعة طيبة لكونها مكانًا يمكن للعملاء الذهاب إليه لإنجاز الخدمات وأن يتم تدليلهم في بيئة سلمية.
+appLSelectLanguage,Select Language,Seleccione el idioma,اختار اللغة
+appLWelcomeTitleText,Welcome Back,Bienvenido de nuevo,مرحبًا بعودتك
+appLWelcomeSubTitleText,Login to your account,Ingrese a su cuenta,تسجيل الدخول إلى حسابك
+appLCustomerType,New to Salon?,¿Nuevo en Salon?,جديد على صالون؟
+appLForgotPassword,Forgot Password?,¿Has olvidado tu contraseña?,هل نسيت كلمة السر؟
+appLNewToeSalon,New to eSalon?,Nuevo en Esalon?,جديد على Esalon؟
+appLForgotPasswordText,Forgot Password,Has olvidado tu contraseña,هل نسيت كلمة السر
+appLContinueText,Continue,Continuar,يكمل
+appLForgotPasswordTitle,Please Enter Your Email Address or Phone Number to Reset Your Password,Ingrese su dirección de correo electrónico o número de teléfono para restablecer su contraseña,الرجاء إدخال عنوان بريدك الإلكتروني أو رقم الهاتف لإعادة تعيين كلمة المرور الخاصة بك
+appLDidNotGetCode,Didnt get any code?,¿No obtuvo ningún código?,لم تحصل على أي رمز؟
+appLIdentityVerification,"Your identity has been verified, Set your new Password","Su identidad ha sido verificada, configure su nueva contraseña",تم التحقق من هويتك ، وضبط كلمة المرور الجديدة الخاصة بك
+appLConfirmNewPassword,Confirm New Password,Confirmar nueva contraseña,تأكيد كلمة المرور الجديدة
+appLSignUpSubTitle,Create your account to use eSalon,Crea tu cuenta para usar Esalon,إنشاء حسابك لاستخدام esalon
+appLAgreeToPrivacyPolicyText,By countenancing Sign up you agree to the following terms & conditions without reservation,"Mediante el registro de contador, usted acepta los siguientes Términos y Condiciones sin reserva",من خلال حساب الاشتراك ، توافق على الشروط والأحكام التالية دون الحجز
+appLAlreadyHaveAccount,Already have an account?,¿Ya tienes una cuenta?,هل لديك حساب؟
+appLSchedule,Schedule,Cronograma,جدول
+appLParlourList,Parlour List,Lista de salones,قائمة صالون
+appLHomeAppbarWelcomeText,Welcome to your personal stylist,Bienvenido a su estilista personal,مرحبًا بك في مصممك الشخصي
+appLSpecializationField,Haircut Specialist,Especialista en cabello,أخصائي حلاقة الشعر
+appLCategories,Categories,Categorías,فئات
+appLPrice,Price,Precio,سعر
+appLSpecialistType,Specialist Type,Tipo especialista,نوع متخصص
+appLApplyFilter,Apply Filter,Aplicar filtro,تطبيق المرشح
+appLDiscountPercentage,20%,20%,20 ٪
+appLHairTreatment,Hair Treatment,Tratamiento capilar,علاج الشعر
+appLExplore,Explore,Explorar,يستكشف
+appLPopularExpert,Popular Experts,Expertos populares,الخبراء المشهورين
+appLSeeAll,See All,Ver todo,اظهار الكل
+appLEditProfile,Edit Profile,Editar perfil,تعديل الملف الشخصي
+appLHaircutSpecialist,Haircut Specialist,Especialista en cabello,أخصائي حلاقة الشعر
+appLBasicInfo,Basic Info,Información básica,معلومات أساسية
+appLReviews,reviews,reseñas,المراجعات
+appLLocation,Location,Ubicación,موقع
+appLCustomerReview,Customer Review,Revisión del cliente,رأي العميل
+appLCustomerName,Brionzen,Brionzen,بريونزين
+appLScheduleBook,Schedule Book,Libro de horario,كتاب الجدول الزمني
+appLType,Type,Tipo,يكتب
+appLSelectSpecialist,Select Specialist,Seleccionar especialista,حدد متخصص
+appLSelectDate,Select Date,Seleccione fecha,حدد تاريخ
+appLAvailableSlot,Available Slot,Espacio disponible,فتحة متوفرة
+appLBookAppointment,Book Appointment,Reservar una cita,موعد الكتاب
+appLDate,05 March 2022,05 de marzo de 2022,05 مارس 2022
+appLHistoryTwo,History,Historia,تاريخ
+appLScheduled,Scheduled,Programado,المقرر
+appLAppointmentAt,Appointment At,Cita con,موعد في
+appLSkincareType,Skincare,Protección de la piel,العناية بالبشرة
+appLSkincareDetails,Skincare  Details is here,Los detalles del cuidado de la piel están aquí,تفاصيل العناية بالبشرة هنا
+appLSpecialist,Specialist,Especialista,متخصص
+appLProfessional,Professional,Profesional,احترافي
+appLBookScheduleNow,Book Schedule Now,Horario de libros ahora,جدول الكتاب الآن
+appLTermsAndPoliciesText,"Crafting a compelling job description is essential to helping you attract the most qualified candites for your job. With more than 25 million jobs listed Indeed, a great job description can help your jobs stand out from a rest. Your job descriptions are where you start your company and you job to your future hire.","La elaboración de una descripción de trabajo convincente es esencial para ayudarlo a atraer los candites más calificados para su trabajo. Con más de 25 millones de empleos enumerados, una gran descripción del trabajo puede ayudar a que sus trabajos se destaquen de un descanso. Sus descripciones de trabajo son donde comienza su empresa y su trabajo para su futuro contratación.",يعد صياغة الوصف الوظيفي المقنع أمرًا ضروريًا لمساعدتك في جذب أكثر المبيضات المؤهلة لعملك. مع إدراج أكثر من 25 مليون وظيفة مدرجة بالفعل ، يمكن أن يساعد وصف وظائفك الرائع وظائفك على التبرز من الراحة. توصيف وظيفتك هي المكان الذي تبدأ فيه شركتك وتعمل على توظيف مستقبلك.
+appLCopyRight,CopyRight © 2021 eSalon,Copyright © 2021 Esalon,حقوق الطبع والنشر © 2021 Esalon
+appLMessage,Message,Mensaje,رسالة
+appLSubmitNow,Submit Now,Aplique ahora,أرسل الآن
+appLPleaseFillOutTheField,Please Fill Out The Field,Por favor complete el campo,يرجى ملء الحقل
+appLSignIn,Sign In,Iniciar sesión,تسجيل الدخول
+appLSaveChanges,Save Changes,Guardar cambios,حفظ التغييرات
+appLCategoriesAndPrice,Categories & Price,Categorías y precio,الفئات والسعر
+appLSignUp,Sign Up,Inscribirse,اشتراك
+appLUserNameOrEmailAddress,Username Or Email Address,Nombre de usuario o dirección de correo electrónico,اسم المستخدم أو البريد الالكتروني
+appLPassword,Password,Contraseña,كلمة المرور
+appLForgetPassword,Forget Password,Contraseña olvidada,ننسى كلمة المرور
+appLGetStarted,Get Started,Empezar,البدء
+appLEmailAddress,Email Address,Dirección de correo electrónico,عنوان البريد الإلكتروني
+appLEnterTheOTPCodeSendTo,Enter the code sent to your email,Ingrese el código enviado a su correo electrónico,أدخل الرمز المرسلة إلى بريدك الإلكتروني
+appLVerifiedCode,Verified Code,Código verificado,رمز التحقق
+appLSubmit,Submit,Entregar,يُقدِّم
+appLOTPVerification,OTP Verification,Verificación OTP,التحقق من OTP
+appLEmailVerification,Email Verification,verificacion de email,تأكيد بواسطة البريد الالكتروني
+appLResend,Resend,Revender,إعادة إرسال
+appLNewPassword,New Password,Nueva contraseña,كلمة المرور الجديدة
+appLConfirmPassword,Confirm Password,confirmar Contraseña,تأكيد كلمة المرور
+appLEnter,Enter,Ingresar,يدخل
+appLResetPassword,Reset Password,Restablecer la contraseña,إعادة تعيين كلمة المرور
+appLCongratulation,Congratulations,Felicidades,تهانينا
+appLCreateAccount,Create an Account,Crea una cuenta,إنشاء حساب
+appLFirstName,First Name,Nombre de pila,الاسم الأول
+appLLastName,Last Name,Apellido,اسم العائلة
+appLBio,Bio,Biografía,السيرة الذاتية
+appLOkay,Okay,Bueno,تمام
+appLTransfer,TRANSFER,TRANSFERIR,تحويل
+appLHome,Home,Hogar,بيت
+appLProfile,Profile,Perfil,حساب تعريفي
+appLAddMoney,Add Money,Agregar dinero,إضافة المال
+appLMoneyOut,Money Out,Apagarse,لم يبقى اي من المال
+appLExchange,Exchange,Intercambio,تبادل
+appLRequest,Request,Pedido,طلب
+appLRecentTransaction,Recent Transaction,Transacción reciente,المعاملة الأخيرة
+appLNotification,Notification,Notificación,إشعار
+appLMyInvoice,My Invoice,Mi factura,فاتورتي
+appLMyVoucher,My Voucher,Mi cupón,قسيم
+appLTransactionLog,Transaction Log,Registro de transacciones,سجل المعاملات
+appLTwoFASecurity,2FA Security,2FA SEGURIDAD,2FA الأمن
+appLChangePassword,Change Password,Cambiar la contraseña,تغيير كلمة المرور
+appLHelpCenter,Help Center,Centro de ayuda,مركز المساعدة
+appLPrivacyAndPolicy,Privacy & Policy,Política de privacidad,سياسة الخصوصية
+appLAboutUs,About Us,Sobre nosotros,معلومات عنا
+appLSignOut,Sign Out,Desconectar,خروج
+appLAmount,Amount,Cantidad,كمية
+appLPreviewScreen,Preview Screen,Pantalla previa,شاشة المعاينة
+appLExchangeRate,Exchange Rate,Tipo de cambio,سعر الصرف
+appLTotalFeesAndCharges,Total Fees & Charges,Tarifas y cargos totales,إجمالي الرسوم والرسوم
+appLWillGet,Will Get,Obtendrá,سوف تحصل
+appLTotalPayableAmount,Total Payable Ammount,Ammount total por pagar,إجمالي Ammount المستحق
+appLConfirm,Confirm,Confirmar,يتأكد
+appLMoneyExchange,Money Exchange,Cambio de dinero,حوالة نقدية
+appLFrom,From,De,من
+appLTo,To,A,ل
+appLRequestMoney,Request Money,Pedir dinero,طلب المال
+appLRemarks,Remarks,Observaciones,ملاحظات
+appLOptional,Optional,Opcional,خياري
+appLShareRequestMoney,Share Request Money,Solicitar dinero para compartir dinero,مشاركة طلب المال
+appLShare,Share,Compartir,يشارك
+appLMoneyTransfer,Money Transfer,Transferencia de dinero,تحويل المال
+appLAvailableBalance,Available Balance,Saldo disponible,الرصيد المتوفر
+appLReceiver,Receiver,Receptor,المتلقي
+appLProfileLabel,Profile,Perfil,حساب تعريفي
+appLFullName,Full Name,Nombre completo,الاسم الكامل
+appLCountry,Country,País,دولة
+appLMobileNumber,Mobile Number,Número de teléfono móvil,رقم الهاتف المحمول
+appLState,State,Estado,ولاية
+appLCity,City,Ciudad,مدينة
+appLZipCode,Zip Code,Código postal,الرمز البريدي
+appLAddress,Address,DIRECCIÓN,عنوان
+appLUpdate,Update,Actualizar,تحديث
+appLPaid,Paid,Pagado,مدفوع
+appLSent,Sent,Enviado,مرسل
+appLUnPaid,UnPaid,No pagado,غير مدفوع الأجر
+appLInvoiceNumber,Invoice Number,Número de factura,رقم الفاتورة
+appLInvoiceDate,Invoice Date,Fecha de la factura,تاريخ الفاتورة
+appLCurrency,Currency,Divisa,عملة
+appLPickGoods,Pick Goods,Seleccionar artículos,اختر البضائع
+appLTrickGoods,Trick Goods,Artículos de truco,خدعة البضائع
+appLTotalBill,Total Bill,Cuenta total,إجمالي الفاتورة
+appLCreateInvoice,Create Invoice,Crear factura,إنشاء فاتورة
+appLInvoiceTo,Invoice To,Factura,فاتورة إلى
+appLBillingAddress,Billing Address,Dirección de Envio,عنوان وصول الفواتير
+appLNotes,Notes,Notas,ملحوظات
+appLItemDetails,Item Details,detalles del artículo,تفاصيل العنصر
+appLClientName,Client Name,nombre del cliente,اسم العميل
+appLAddNew,Add New,Agregar nuevo,اضف جديد
+appLItemName,Item Name,Nombre del árticulo,اسم العنصر
+appLVoucher,Voucher,Vale,فاتورة
+appLRedeem,Redeem,Canjear,يسترد
+appLUsed,Used,Usado,مستخدم
+appLNotUsed,Not Used,No utilizado,غير مستعمل
+appLName,Name,Nombre,اسم
+appLEmail,Email,Correo electrónico,بريد إلكتروني
+appLPhone,Phone,Teléfono,هاتف
+appLFeesAndCharge,Fees & Charge,Tarifas y cargo,الرسوم والشحن
+appLStatus,Status,Estado,حالة
+appLCode,Code,Código,شفرة
+appLCreateVoucher,Create Voucher,Crear cupón,إنشاء قسيمة
+appLConfirmRedeem,Confirm Redeem,Confirmar redimir,تأكيد الاسترداد
+appLRedeemCode,Redeem Code,Canjear código,استرداد رمز
+appLAddMoneyLog,Add Money Log,Agregar registro de dinero,أضف سجل الأموال
+appLMoneyOutLog,Money Out Log,Money Out Log,سجل الأموال
+appLExchangeLog,Exchange Log,Registro de intercambio,سجل التبادل
+appLRequestLog,Request Log,Registro de solicitud,طلب سجل
+appLBackToHome,Back To Home,De vuelta a casa,العودة إلى المنزل
+appLEnable2faSecurity,Enable 2FA Security,Habilitar la seguridad de 2FA,تمكين 2FA الأمن
+appLSendVerificationCode,Send Verification Code,Envíe el código de verificación,إرسال رمز التحقق
+appLOldPassword,Old Password,Contraseña anterior,كلمة المرور القديمة
+appLIndividual,Individual,Individual,فردي
+appLBusiness,Business,Negocio,عمل
+appLMiddleName,Middle Name,Segundo nombre,الاسم الأوسط
+appLUserName,Username,Nombre de usuario,اسم المستخدم
+appLPostalCode,Postal Code,Código Postal,رمز بريدي
+appLCompanyName,Company Name,nombre de empresa,اسم الشركة
+appLGender,Gender,Género,جنس
+appLDateOfBirth,Date of Birth,Fecha de nacimiento,تاريخ الميلاد
+appLNationality,Nationality,Nacionalidad,جنسية
+appLMyReceipt,My Receipt,Mi recibo,إيصالي
+appLTotalExchangedAmount,Total Exchanged Amount,Cantidad total intercambiada,إجمالي المبلغ المتبادل
+appLConvertedAmount,Converted Amount,Cantidad convertida,المبلغ المحول
+appLRequestedAmount,Requested Amount,Monto requerido,الكمية المطلوبة
+appLContactUs,Contact Us,Contáctenos,اتصل بنا
+appLTermsAndPolicies,Terms & Policies,Política de condiciones,سياسات الشروط
+appLShareApp,Share App,Compartir aplicación,شارك التطبيق
+appLRating,Rating,Clasificación,تقييم
+appLPhoneNumber,Phone number,Número de teléfono,رقم التليفون
+appLFromGallery,From Gallery,De la galería,من المعرض
+appLFromCamera,From Camera,De la cámara,من الكاميرا
 Parlour Details,Parlour Details,Detalles de la sala,تفاصيل صالون
 Make Appointment,Make Appointment,Concertar cita,حدد موعدا
 Admin Roles,Admin Roles,Roles de administración,أدوار المشرف
@@ -1124,7 +1124,7 @@ Parlour:,Parlour:,Salón:,صالون:
 Date:,Date:,Fecha:,تاريخ:
 Time:,Time:,Tiempo:,وقت:
 Serial Number:,Serial Number:,Número de serie:,رقم سري:
-Successfully Booked.,Successfully Booked.,Reservado con éxito.,تم حجزها بنجاح.
+Successfully Booked.,Successfully Booked.,Reservado con éxito.,تم حجزه بنجاح.
 All,All,Todo,الجميع
 Web Version,Web Version,Versión web,إصدار الويب
 Pending Tickets,Pending Tickets,Boletos pendientes,تذاكر معلقة
