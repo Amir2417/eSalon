@@ -3552,7 +3552,7 @@ input[type=number] {
 }
 @media only screen and (max-width: 1490px) {
   .footer-section .responcive-area {
-    margin-left: 100px;
+    margin-left: 80px;
   }
 }
 @media only screen and (max-width: 1175px) {
@@ -3592,6 +3592,7 @@ input[type=number] {
   border-bottom: 2px dashed var(--primary-color);
   display: inline-block;
   margin-bottom: 30px;
+  font-size: 22px !important;
 }
 
 .footer-section .footer-social-icon span {
@@ -3669,6 +3670,7 @@ input[type=number] {
   transition: all 0.6s;
   border-bottom: 1px dashed var(--primary-color);
   margin-bottom: 10px;
+  font-size: 14px;
 }
 .footer-widget li a:hover {
   color: var(--primary-color);
@@ -4561,6 +4563,9 @@ input[type=number] {
   background-color: #0f1c2a;
   padding: 20px;
   border-radius: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .blog-section .blog-area:hover .content-title {
   color: var(--primary-color);
@@ -4585,6 +4590,7 @@ input[type=number] {
 }
 .blog-section .blog-area .blog-btn {
   padding-top: 20px;
+  margin-top: auto;
 }
 
 .blog-details-section .blog-item {
@@ -5259,9 +5265,10 @@ input[type=number] {
 @media only screen and (max-width: 1199px) {
   .dashboard-title-part {
     padding: 0 20px 0 10px;
+    margin: 0px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
   .dashboard-title-part {
     display: block;
   }
@@ -6963,7 +6970,7 @@ input[type=number] {
 
 @media only screen and (max-width: 1490px){
 .footer-section .responcive-area {
-    margin-right: 50px;
+    margin-right: 0px;
   }
 }
 
@@ -6971,12 +6978,6 @@ input[type=number] {
   .footer-section .responcive-area {
       margin-right: 0px;
     }}
-
-@media only screen and (max-width: 1399px){
-    .header-bottom-area .navbar-collapse .main-menu li{
-          padding-left: 20px !important;
-      }
-  }
 
 @media only screen and (max-width: 1399px){
      .rtl .header-bottom-area .navbar-collapse .main-menu li{
@@ -6987,4 +6988,11 @@ input[type=number] {
 .rtl .header-menu-content .navbar-toggler{
   margin-right: auto;
   margin-left: 0 !important;
+}
+
+@media only screen and (max-width: 375px){
+  .account-delate .delete-btn{
+     padding: 8px 15px;
+     font-size: 14px;
+  }
 }

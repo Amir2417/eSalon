@@ -11,6 +11,7 @@ use App\Http\Controllers\Controller;
 use App\Providers\Admin\BasicSettingsProvider;
 use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\ValidationException;
 
 class ProfileController extends Controller
@@ -105,5 +106,21 @@ class ProfileController extends Controller
 
         return back()->with(['success' => ['Password successfully updated!']]);
 
+    }
+    /**
+     * Method for delete user account
+     * @param string $id
+     * @param \Illuminate\Http\Request $request
+     */
+    public function delete(Request $request,$id){
+        $user = auth()->user();
+        try{
+            $user->status = 0;
+            $user->save();
+            Auth::logout();
+            return redirect()->route('index')->with(['success' => ['Your account deleted successfully!']]);
+        }catch(Exception $e) {
+            return back()->with(['error' => ['Something went wrong! Please try again.']]);
+        }
     }
 }

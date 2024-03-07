@@ -1,9 +1,9 @@
 <!-- serching data -->
 <section class="parlour-list-area ptb-80">
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mb-20-none">
             @foreach ($parlour_lists ?? [] as $item)
-                <div class="col-lg-6 col-md-10 pb-20">
+                <div class="col-xl-6 col-md-12 mb-20">
                     <div class="parlor-item">
                         <div class="parlor-img">
                             <img src="{{ get_image($item->image , 'site-section') ?? '' }}" alt="img">

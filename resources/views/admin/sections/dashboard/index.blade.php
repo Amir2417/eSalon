@@ -328,7 +328,7 @@
         type: 'pie'
         },
         colors: ['#5A5278', '#6F6593', '#8075AA', '#A192D9'],
-        labels: ['Active', 'Banned', 'Unverified', 'All'],
+        labels: ['{{ __("Active") }}', '{{ __("Unverified") }}', '{{ __("Banned") }}', '{{ __("All") }}'],
         responsive: [{
         breakpoint: 1480,
         options: {

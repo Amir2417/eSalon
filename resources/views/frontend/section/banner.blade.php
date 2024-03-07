@@ -17,7 +17,7 @@
                                         <h1 class="title">{{ $item->language->$app_local->heading ?? '' }}</h1>
                                         <p>{{ $item->language->$app_local->sub_heading ?? '' }}</p>
                                         <div class="banner-btn mt-40">
-                                            <a href="{{ setRoute('find.parlour') }}" class="btn--base">{{ $item->button_name ?? '' }} </a>
+                                            <a href="{{ setRoute('find.parlour') }}" class="btn--base">{{ __($item->button_name) ?? '' }} </a>
                                         </div>
                                     </div>
                                 </div>

@@ -330,7 +330,7 @@ class SetupSectionsController extends Controller
             'value'     => $data,
         ]);
 
-        return Response::success(['Section item status updated successfully!'],[],200);
+        return Response::success([__('Section item status updated successfully!')],[],200);
         
     }
     /**
@@ -415,7 +415,7 @@ class SetupSectionsController extends Controller
             return back()->with(['error' => ['Something went wrong! Please try again']]);
         }
 
-        return back()->with(['success' => ['Section Updated Successfully!']]);
+        return back()->with(['success' => ['Section updated successfully!']]);
      
     }
     /**
@@ -585,7 +585,7 @@ class SetupSectionsController extends Controller
         }catch(Exception $e){
             return back()->with(['error' => ['Something went wrong! Please try again.']]);
         }
-        return back()->with(['success' => ['Section Updated Successfully!']]);
+        return back()->with(['success' => ['Section updated successfully!']]);
         
     }
     /**
@@ -886,7 +886,7 @@ class SetupSectionsController extends Controller
             'value'     => $data,
         ]);
 
-        return Response::success(['Section item status updated successfully!'],[],200);
+        return Response::success([__('Section item status updated successfully!')],[],200);
         
     }
     /**
@@ -965,7 +965,7 @@ class SetupSectionsController extends Controller
             return back()->with(['error' => ['Something went wrong! Please try again']]);
         }
 
-        return back()->with(['success' => ['Section Updated Successfully!']]);
+        return back()->with(['success' => ['Section updated successfully!']]);
     }
     /**
      * Method for store photo gallery item
@@ -1131,7 +1131,7 @@ class SetupSectionsController extends Controller
         }catch(Exception $e){
             return back()->with(['error' => ['Something went wrong! Please try again.']]);
         }
-        return back()->with( ['success' => ['Section Updated Successfully!']]);
+        return back()->with( ['success' => ['Section updated successfully!']]);
 
     }
     /**
@@ -1336,7 +1336,7 @@ class SetupSectionsController extends Controller
         }catch(Exception $e) {
             return back()->with(['error' => ['Something went wrong! Please try again']]);
         }
-        return back()->with(['success' => ['Section Updated Successfully!']]);
+        return back()->with(['success' => ['Section updated successfully!']]);
     }
     /**
      * Method for show contact section page
@@ -1471,7 +1471,7 @@ class SetupSectionsController extends Controller
         }catch(Exception $e){
             return back()->with(['error' => ['Something went wrong! Please try again.']]);
         }
-        return back()->with( ['success' => ['Section Updated Successfully!']]);
+        return back()->with( ['success' => ['Section updated successfully!']]);
 
     }
     /**
@@ -1779,7 +1779,7 @@ class SetupSectionsController extends Controller
             'value'     => $data,
         ]);
 
-        return Response::success(['Section item status updated successfully!'],[],200);
+        return Response::success([__('Section item status updated successfully!')],[],200);
         
     }
     /**
@@ -1829,7 +1829,7 @@ class SetupSectionsController extends Controller
             return back()->with(['error' => ['Something went wrong! Please try again']]);
         }
 
-        return back()->with(['success' => ['Section Updated Successfully!']]);
+        return back()->with(['success' => ['Section updated successfully!']]);
      
     }
     /**
@@ -1988,7 +1988,7 @@ class SetupSectionsController extends Controller
             'value'     => $data,
         ]);
 
-        return Response::success(['Section item status updated successfully!'],[],200);
+        return Response::success([__('Section item status updated successfully!')],[],200);
         
     }
     /**
@@ -2052,7 +2052,7 @@ class SetupSectionsController extends Controller
             return back()->with(['error' => ['Something went wrong! Please try again']]);
         }
 
-        return back()->with(['success' => ['Section Updated Successfully!']]);
+        return back()->with(['success' => ['Section updated successfully!']]);
      
     }
     /**
@@ -2114,7 +2114,7 @@ class SetupSectionsController extends Controller
         }catch(Exception $e){
             return back()->with(['error' => ['Something went wrong! Please try again.']]);
         }
-        return back()->with( ['success' => ['Section Updated Successfully!']]);
+        return back()->with( ['success' => ['Section updated successfully!']]);
 
     }
     /**
@@ -2176,7 +2176,7 @@ class SetupSectionsController extends Controller
         }catch(Exception $e){
             return back()->with(['error' => ['Something went wrong! Please try again.']]);
         }
-        return back()->with( ['success' => ['Section Updated Successfully!']]);
+        return back()->with( ['success' => ['Section updated successfully!']]);
 
     }
     /**

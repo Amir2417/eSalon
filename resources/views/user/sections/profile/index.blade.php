@@ -21,7 +21,7 @@
                         <h4 class="title">{{ __("Profile Settings") }}</h4>
                     </div>
                     <div class="account-delate">
-                        <a href="javascript:void(0)" class="btn--danger delete-btn">{{ __("Delete Account") }}</a>
+                        <button type="button" class="btn--danger" data-bs-toggle="modal" data-bs-target="#deleteModal">{{__("Delete Account")}}</button>
                     </div>
                 </div>
                 <div class="card-body profile-body-wrapper">
@@ -161,6 +161,25 @@
         </div>
     </div>
 </div>
+<!-- Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h4 class="title">{{ __("Are you sure to delete your account?") }}</h4>
+          <p>{{ __("If you do not think you will use") }} <span class="text--base">{{ $basic_settings->site_name }}</span> {{ __("again and like your account deleted. Keep in mind you will not be able to reactivate your account or retrieve any of the content or information you have added. If you would still like your account deleted, click “Confirm”.?") }}</p>
+          
+        </div>
+        <div class="modal-footer justify-content-between border-0">
+            <button type="button" class="btn--base bg-danger" data-bs-dismiss="modal">{{ __("Close") }}</button>
+            <form action="{{ setRoute('user.profile.delete',auth()->user()->id) }}" method="POST">
+                @csrf
+                <button type="submit" class="btn--base">{{ __("Confirm") }}</button>
+            </form>
+        </div>
+      </div>
+    </div>
+</div>
 @endsection
 
 @push('script')
@@ -176,15 +195,6 @@
             stateSelect(".state-select",$(".state-select").siblings(".select2"));
         });
 
-        //delete profile modal
-        $(".delete-btn").click(function(){
-            var actionRoute =  "{{ setRoute('user.delete.account') }}";
-            var target      = 1;
-            var btnText     = "Delete Account";
-            var projectName = "{{ @$basic_settings->site_name }}";
-            var name        = $(this).data('name');
-            var message     = `{{ __("Are you sure to delete") }} <strong>{{ __("your account") }}</strong>?<br>{{ __("If you do not think you will use") }} “<strong>${projectName}</strong>”  {{ __("again and like your account deleted, we can take card of this for you. Keep in mind you will not be able to reactivate your account or retrieve any of the content or information you have added. If you would still like your account deleted, click “Delete Account”.?") }}`;
-            openAlertModal(actionRoute,target,message,btnText,"DELETE");
-        });
+        
     </script>
 @endpush
