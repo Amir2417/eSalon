@@ -6991,7 +6991,7 @@ input[type=number] {
 }
 
 @media only screen and (max-width: 375px){
-  .account-delate .delete-btn{
+  .account-delate .button{
      padding: 8px 15px;
      font-size: 14px;
   }
