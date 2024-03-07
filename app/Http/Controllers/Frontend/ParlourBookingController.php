@@ -103,8 +103,8 @@ class ParlourBookingController extends Controller
         $validated['payable_price'] = $total_price;
         $validated['status']        = global_const()::PARLOUR_BOOKING_STATUS_REVIEW_PAYMENT;
 
-        $alrady_appointed = ParlourBooking::where('parlour_id',$parlour->id)->where('schedule_id',$validated['schedule_id'])->count();
-
+        $alrady_appointed = ParlourBooking::where('parlour_id',$parlour->id)->where('schedule_id',$validated['schedule_id'])->where('date',$validated['date'])->count();
+        
         if($alrady_appointed >= $schedule->max_client) {
             return back()->with(['error' => ['Booking Limit is over!']]);
         }

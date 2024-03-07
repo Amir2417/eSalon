@@ -165,7 +165,7 @@
             var selectedDate    = $(this).val();
             var todaysDate      = $('.todays-date').val();      
             var currentTime     = $('.current_time').val();
-
+            console.log(selectedDate,todaysDate);
             var data            = JSON.parse($('.shedule-option').attr("data-item"));
             $('.shedule-option').html('');
             
