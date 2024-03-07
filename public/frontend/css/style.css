@@ -2658,7 +2658,7 @@ input[type=number] {
   position: relative;
   padding-right: 40px;
 }
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1400px) {
   .header-bottom-area .navbar-collapse .main-menu li {
     padding-right: 15px !important;
   }
