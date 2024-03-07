@@ -22,7 +22,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-3 col-md-6 mb-30">
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                     <div class="footer-widget responcive-area">
                         <div class="footer-widget-heading">
                             <h3 class="title">{{ __("Useful Links") }}</h3>
